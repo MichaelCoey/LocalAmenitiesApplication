@@ -1,0 +1,67 @@
+<resources>
+    <!--Application Name-->
+    <string name="app_name">N.I Local Amenities Application</string>
+
+    <!--Splash Screen Text Strings-->
+    <string name="splash_title">N.I Local Amenities Application</string>
+
+    <!--Area Selection Activity Text Strings-->
+    <string name="area_Title">Please select an area of N.I</string>
+    <string name="area_AntrimNewtownabbey">Antrim &amp; Newtownabbey</string>
+    <string name="area_ArdsAndNorthDown">Ards &amp; North Down</string>
+    <string name="area_ArmaghBanbridgeCraigavon">Armagh, Banbridge and Craigavon</string>
+    <string name="area_BelfastCity">Belfast City</string>
+    <string name="area_CausewayAndGlens">Causeway Coast and Glens</string>
+    <string name="area_DerryCityAndStrabane">Derry City and Strabane</string>
+    <string name="area_FermanaghAndOmagh">Fermanagh and Omagh</string>
+    <string name="area_LisburnAndCastlereagh">Lisburn and Castlereagh</string>
+    <string name="area_MidAndEastAntrim">Mid and East Antrim</string>
+    <string name="area_MidUlster">Mid Ulster</string>
+    <string name="area_NewryMourneAndDown">Newry, Mourne and Down</string>
+
+    <!--Council Menu Selections-->
+    <string name="CouncilOption_CouncilInformation">Council Information</string>
+    <string name="TouristInformation_TouristInformation">Tourist Information</string>
+
+    <!--Antrim and Newtownabbey Council Menu-->
+    <string name="antrimnewtownabbey_councilmenu_Title">Antrim &amp; Newtownabbey Council Services</string>
+        <!--Spinner Tool Contents-->
+        <string-array
+            name="ANCIM_Spinner_Array_Titles">
+            <item>Births, Deaths &amp; Marriages</item>
+            <item>Building Control</item>
+            <item>Cemeteries</item>
+            <item>Dogs</item>
+            <item>Waste &amp; Recycling</item>
+        </string-array>
+        <!--Antrim and Newtownabbey Council Menu Placeholder Text-->
+        <string name="ANCIM_activity_EducationDescriptionHeading">\nDescription</string>
+        <string name="ANCIM_activity_EducationDescription">Description</string>
+        <string name="ANCIM_activity_EducationContactHeading">\nContact</string>
+        <string name="ANCIM_activity_EducationContactDescription">Contact Information</string>
+        <string name="ANCIM_activity_EducationAdditionalHeading">\nAdditional</string>
+        <string name="ANCIM_activity_EducationAdditionalDescription">Additional Information</string>
+        <!--Antrim and Newtownabbey Council Menu Council Information Text-->
+        <string name="ANCIM_Spinner_description_BirthsDeathsMarriages">This is a test to make sure that the info loads and displays across the screen rather than going off it.</string>
+        <string name="ANCIM_Spinner_contact_BirthsDeathsMarriages">---</string>
+        <string name="ANCIM_Spinner_additional_BirthsDeathsMarriages">---</string>
+
+        <string name="ANCIM_Spinner_description_BuildingControl">---</string>
+        <string name="ANCIM_Spinner_contact_BuildingControl">---</string>
+        <string name="ANCIM_Spinner_additional_BuildingControl">---</string>
+
+        <string name="ANCIM_Spinner_description_Cemeteries">---</string>
+        <string name="ANCIM_Spinner_contact_Cemeteries">---</string>
+        <string name="ANCIM_Spinner_additional_Cemeteries">---</string>
+
+        <string name="ANCIM_Spinner_description_Dogs">---)</string>
+        <string name="ANCIM_Spinner_contact_Dogs">---</string>
+        <string name="ANCIM_Spinner_additional_Dogs">---</string>
+
+        <string name="ANCIM_Spinner_description_WasteRecycling">---</string>
+        <string name="ANCIM_Spinner_contact_WasteRecycling">---</string>
+        <string name="ANCIM_Spinner_additional_WasteRecycling">---</string>
+
+
+
+</resources>

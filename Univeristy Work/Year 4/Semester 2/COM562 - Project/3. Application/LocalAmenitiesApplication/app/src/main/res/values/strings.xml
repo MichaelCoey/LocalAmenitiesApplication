@@ -35,12 +35,12 @@
             <item>Waste &amp; Recycling</item>
         </string-array>
         <!--Antrim and Newtownabbey Council Menu Placeholder Text-->
-        <string name="ANCIM_activity_EducationDescriptionHeading">\nDescription</string>
-        <string name="ANCIM_activity_EducationDescription">Description</string>
-        <string name="ANCIM_activity_EducationContactHeading">\nContact</string>
-        <string name="ANCIM_activity_EducationContactDescription">Contact Information</string>
-        <string name="ANCIM_activity_EducationAdditionalHeading">\nAdditional</string>
-        <string name="ANCIM_activity_EducationAdditionalDescription">Additional Information</string>
+        <string name="ANCIM_activity_AreaDescriptionHeading">\nDescription</string>
+        <string name="ANCIM_activity_AreaDescription">Description</string>
+        <string name="ANCIM_activity_AreaContactHeading">\nContact</string>
+        <string name="ANCIM_activity_AreaContactDescription">Contact Information</string>
+        <string name="ANCIM_activity_AreaAdditionalHeading">\nAdditional</string>
+        <string name="ANCIM_activity_AreaAdditionalDescription">Additional Information</string>
         <!--Antrim and Newtownabbey Council Menu Council Information Text-->
         <string name="ANCIM_Spinner_description_BirthsDeathsMarriages">This is a test to make sure that the info loads and displays across the screen rather than going off it.</string>
         <string name="ANCIM_Spinner_contact_BirthsDeathsMarriages">---</string>

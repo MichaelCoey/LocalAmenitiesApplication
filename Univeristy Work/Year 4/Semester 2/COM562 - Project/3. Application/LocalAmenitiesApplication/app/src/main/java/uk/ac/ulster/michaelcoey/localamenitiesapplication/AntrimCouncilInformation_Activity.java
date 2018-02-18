@@ -37,8 +37,14 @@ public class AntrimCouncilInformation_Activity extends AppCompatActivity impleme
         switch (position)
         {
             case 0:
-                textElement = (TextView) findViewById(R.id.txtANCSAreaTitle);
+                textElement = (TextView) findViewById(R.id.txtANCSDescription);
                 textElement.setText(R.string.ANCIM_Spinner_description_BirthsDeathsMarriages);
+
+                textElement = (TextView) findViewById(R.id.txtANCSContact);
+                textElement.setText(R.string.ANCIM_Spinner_contact_BirthsDeathsMarriages);
+
+                textElement = (TextView) findViewById(R.id.txtANCSAdditional);
+                textElement.setText(R.string.ANCIM_Spinner_additional_BirthsDeathsMarriages);
         }
     }
 

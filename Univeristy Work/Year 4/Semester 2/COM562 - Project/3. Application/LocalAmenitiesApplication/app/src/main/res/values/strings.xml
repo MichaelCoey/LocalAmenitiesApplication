@@ -43,8 +43,8 @@
         <string name="ANCIM_activity_AreaAdditionalDescription">Additional Information</string>
         <!--Antrim and Newtownabbey Council Menu Council Information Text-->
         <string name="ANCIM_Spinner_description_BirthsDeathsMarriages">This is a test to make sure that the info loads and displays across the screen rather than going off it.</string>
-        <string name="ANCIM_Spinner_contact_BirthsDeathsMarriages">---</string>
-        <string name="ANCIM_Spinner_additional_BirthsDeathsMarriages">---</string>
+        <string name="ANCIM_Spinner_contact_BirthsDeathsMarriages">0289815</string>
+        <string name="ANCIM_Spinner_additional_BirthsDeathsMarriages">gjfdhgjkfdhjgkfd</string>
 
         <string name="ANCIM_Spinner_description_BuildingControl">---</string>
         <string name="ANCIM_Spinner_contact_BuildingControl">---</string>

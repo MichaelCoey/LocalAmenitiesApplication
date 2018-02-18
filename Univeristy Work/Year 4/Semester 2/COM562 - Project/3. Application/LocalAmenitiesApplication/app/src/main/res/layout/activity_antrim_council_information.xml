@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="Council Service Area Title"
-                android:text="@string/area_AntrimNewtownabbey"
+                android:text="@string/ANCIM_activity_AreaDescriptionHeading"
                 android:textColor="#3b9cdb"
                 android:textSize="18sp" />
 
@@ -51,7 +51,40 @@
                 android:id="@+id/txtANCSDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/ANCIM_activity_AreaDescription"
                 android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtANCSContactHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Council Service Area Title"
+                android:text="@string/ANCIM_activity_AreaContactHeading"
+                android:textColor="#3b9cdb"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtANCSContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ANCIM_activity_AreaContactDescription"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtANCSAdditionalHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Council Service Area Title"
+                android:text="@string/ANCIM_activity_AreaAdditionalHeading"
+                android:textColor="#3b9cdb"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtANCSAdditional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                tools:text="@string/ANCIM_activity_AreaAdditionalDescription" />
         </LinearLayout>
     </ScrollView>
 

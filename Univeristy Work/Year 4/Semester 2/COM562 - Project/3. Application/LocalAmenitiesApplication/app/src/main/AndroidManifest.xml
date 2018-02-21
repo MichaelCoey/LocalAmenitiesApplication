@@ -30,7 +30,10 @@
         <activity android:name=".NewryMourneDownMenu_Activity" />
         <activity android:name=".MainMenu_Activity" />
         <activity android:name=".AntrimCouncilInformation_Activity" />
-        <activity android:name=".AntrimTouristInformation_Activity"></activity>
+        <activity android:name=".AntrimTouristInformation_Activity" />
+        <activity android:name=".ArdsNorthdownCouncilInformation_Activity" />
+        <activity android:name=".ArmaghBanbridgeCraigavonCouncilInformation_Activity" />
+        <activity android:name=".BelfastCityCouncilInformation_Activity"></activity>
     </application>
 
 </manifest>

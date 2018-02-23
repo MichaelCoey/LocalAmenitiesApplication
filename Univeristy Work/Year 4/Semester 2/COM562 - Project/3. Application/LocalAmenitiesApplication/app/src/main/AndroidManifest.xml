@@ -33,7 +33,10 @@
         <activity android:name=".AntrimTouristInformation_Activity" />
         <activity android:name=".ArdsNorthdownCouncilInformation_Activity" />
         <activity android:name=".ArmaghBanbridgeCraigavonCouncilInformation_Activity" />
-        <activity android:name=".BelfastCityCouncilInformation_Activity"></activity>
+        <activity android:name=".BelfastCityCouncilInformation_Activity" />
+        <activity android:name=".CausewayCoastGlensCouncilInformation_Activity" />
+        <activity android:name=".DerryStrabaneCouncilInformation_Activity" />
+        <activity android:name=".FermanaghOmaghCounciInformation_Activity"></activity>
     </application>
 
 </manifest>

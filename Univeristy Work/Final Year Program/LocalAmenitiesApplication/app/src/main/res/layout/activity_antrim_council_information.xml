@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.ac.ulster.michaelcoey.localamenitiesapplication.Area_Activity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtANCSTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:contentDescription="Antrim &amp; Newtownabbey Council Services Screen"
+            android:text="@string/antrimnewtownabbey_councilmenu_Title"
+            android:textColor="#2161ae"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spn_AntrimCouncilInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TextView
+                    android:id="@+id/txtANCSAreaTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Council Service Area Title"
+                    android:text="@string/ANCIM_activity_AreaDescriptionHeading"
+                    android:textColor="#3b9cdb"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtANCSDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ANCIM_activity_AreaDescription"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txtANCSContactHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Council Service Area Title"
+                    android:text="@string/ANCIM_activity_AreaContactHeading"
+                    android:textColor="#3b9cdb"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtANCSContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ANCIM_activity_AreaContactDescription"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txtANCSAdditionalHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Council Service Area Title"
+                    android:text="@string/ANCIM_activity_AreaAdditionalHeading"
+                    android:textColor="#3b9cdb"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtANCSAdditional"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    tools:text="@string/ANCIM_activity_AreaAdditionalDescription" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

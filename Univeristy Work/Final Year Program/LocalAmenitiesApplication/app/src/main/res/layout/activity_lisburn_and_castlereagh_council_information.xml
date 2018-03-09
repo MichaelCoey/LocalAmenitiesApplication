@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.ac.ulster.michaelcoey.localamenitiesapplication.Area_Activity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtLCCSTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="@string/lisburncastlereagh_councilmenu_Title"
+            android:textColor="#2161ae"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spn_LisburnCastlereaghCouncilInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TextView
+                    android:id="@+id/txtLCCSAreaTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LCCIM_activity_AreaDescriptionHeading"
+                    android:textColor="#3b9cdb"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtLCCSDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LCCIM_activity_AreaDescription"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txtLCCSContactHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LCCIM_activity_AreaContactHeading"
+                    android:textColor="#3b9cdb"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtLCCSContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LCCIM_activity_AreaContactDescription"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txtLCCSAdditionalHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LCCIM_activity_AreaAdditionalHeading"
+                    android:textColor="#3b9cdb"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtLCCSAdditional"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    tools:text="@string/LCCIM_activity_AreaAdditionalDescription" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

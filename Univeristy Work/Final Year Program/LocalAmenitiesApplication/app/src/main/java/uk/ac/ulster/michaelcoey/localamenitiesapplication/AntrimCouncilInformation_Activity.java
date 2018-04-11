@@ -1,5 +1,7 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +9,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
-
 
 public class AntrimCouncilInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 

@@ -13,7 +13,6 @@ public class AntrimMenu_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_antrim_menu);
     }
 
-
     public void NavigationAntrimNewtownabbeyCouncilServices(View view) {
         // Starting a new Intent
         Intent nextScreen = new Intent(getApplicationContext(),
@@ -28,3 +27,5 @@ public class AntrimMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 }
+
+

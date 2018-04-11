@@ -1,23 +1,23 @@
 <resources>
     <!--Application Name-->
-    <string name="app_name">N.I Local Amenities Application</string>
+    <string name="app_name" translatable="false">N.I Local Amenities Application</string>
 
     <!--Splash Screen Text Strings-->
-    <string name="splash_title">N.I Local Amenities Application</string>
+    <string name="splash_title" translatable="false">N.I Local Amenities Application</string>
 
     <!--Area Selection Activity Text Strings-->
-    <string name="area_Title">Please select an area of N.I</string>
-    <string name="area_AntrimNewtownabbey">Antrim &amp; Newtownabbey</string>
-    <string name="area_ArdsAndNorthDown">Ards &amp; North Down</string>
-    <string name="area_ArmaghBanbridgeCraigavon">Armagh, Banbridge and Craigavon</string>
-    <string name="area_BelfastCity">Belfast City</string>
-    <string name="area_CausewayAndGlens">Causeway Coast and Glens</string>
-    <string name="area_DerryCityAndStrabane">Derry City and Strabane</string>
-    <string name="area_FermanaghAndOmagh">Fermanagh and Omagh</string>
-    <string name="area_LisburnAndCastlereagh">Lisburn and Castlereagh</string>
-    <string name="area_MidAndEastAntrim">Mid and East Antrim</string>
-    <string name="area_MidUlster">Mid Ulster</string>
-    <string name="area_NewryMourneAndDown">Newry, Mourne and Down</string>
+    <string name="area_Title" translatable="false">Please select an area of N.I</string>
+    <string name="area_AntrimNewtownabbey" translatable="false">Antrim &amp; Newtownabbey</string>
+    <string name="area_ArdsAndNorthDown" translatable="false">Ards &amp; North Down</string>
+    <string name="area_ArmaghBanbridgeCraigavon" translatable="false">Armagh, Banbridge and Craigavon</string>
+    <string name="area_BelfastCity" translatable="false">Belfast City</string>
+    <string name="area_CausewayAndGlens" translatable="false">Causeway Coast and Glens</string>
+    <string name="area_DerryCityAndStrabane" translatable="false">Derry City and Strabane</string>
+    <string name="area_FermanaghAndOmagh" translatable="false">Fermanagh and Omagh</string>
+    <string name="area_LisburnAndCastlereagh" translatable="false">Lisburn and Castlereagh</string>
+    <string name="area_MidAndEastAntrim" translatable="false">Mid and East Antrim</string>
+    <string name="area_MidUlster" translatable="false">Mid Ulster</string>
+    <string name="area_NewryMourneAndDown" translatable="false">Newry, Mourne and Down</string>
 
     <!--Council Menu Selections-->
     <string name="CouncilOption_CouncilInformation">Council Information</string>
@@ -495,35 +495,36 @@
     <string name="ardsnorthdown_touristmenu_Title">Ards &amp; North Down Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ANDTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Somme Museum</item>
+        <item>Ulster Folk and Transport Museum</item>
+        <item>Island Hill</item>
+        <item>Exploris Aquarium</item>
     </string-array>
     <!--Ards and North Down Tourist Menu Placeholder Text-->
     <string name="ANDTIM_activity_AreaDescriptionHeading">\nAbout</string>
     <string name="ANDTIM_activity_AreaDescription">Description</string>
     <string name="ANDTIM_activity_AreaContactHeading">\nGet in touch</string>
     <string name="ANDTIM_activity_AreaContactDescription">Contact Information</string>
-    <string name="ANDTIM_activity_CallDescription">Click the phone to call us.</string>
+    <string name="ANDTIM_activity_CallDescription">Click to call</string>
+    <string name="ANDTIM_activity_WebDescription">Click to visit the website</string>
     <string name="ANDTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="ANDTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Ards and North Down Tourist Menu Information Text-->
-    <string name="ANDTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="ANDTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="ANDTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="ANDTIM_Spinner_description_SommeMuseum">The Somme Museum examines Irelands role in the 1st World War with special reference to the cross-community involvement in the 3 local volunteer Divisions: the 10th and 16th (Irish) Divisions and the 36th (Ulster) Division. Guided tours bring the visitor back in time to 1910 where they learn about the Home Rule Crisis, recruiting and training of men and life in the trenches. Reconstructed trenches of the Battle of the Somme in 1916.</string>
+    <string name="ANDTIM_Spinner_contact_SommeMuseum">Apr-June and Sept: Mon-Thurs 10am-4pm, Sat 11am-4pm\n\nJul and Aug: Mon-Sat 10am-5pm\n\nOct-Mar: Mon-Thurs 10am-4pm, Sat 11am-4pm\n\nThe Somme Museum is closed on Saturdays in December \n\nAddress\nSomme Museum\n233 Bangor Road\nNewtownards\nCo.Down\nBT23 7PH\n\nTelephone\n028 9182 3202</string>
+    <string name="ANDTIM_Spinner_additional_SommeMuseum">Wheelchair access. Audio-visual. Shop. Conference facilities.\n\nFood served 10am - 3pm. Includes light snacks, burgers, sausages, chips, frys, homemade soup, cakes, biscuits and scones. Children’s Menu available.\n\nBooking for groups essential. Take away available. Disabled access – parking, toilet and use of wheelchair. Credit/debit cards accepted. (no euros accepted). Seats 55.\n\nIn 2015 Somme Museum were awarded a Bronze Award in the Green Tourism Business Scheme.</string>
 
-    <string name="ANDTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="ANDTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="ANDTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="ANDTIM_Spinner_description_UlsterFolkandTransportMuseum">Step back in time in and uncover a way of life from 100 years ago\n\nMake a full day of your visit to the Museum of the Year.  It is Ireland’s most comprehensive heritage museum, including world-class Irish Railway Collection, Road Transport Galleries and interactive Flight Experience.  Don’t miss the permanent Titanic exhibition.\n\nExperience bygone life-styles in Ballycultra, the unique Ulster town reconstructed on 60 acres where costumed guides and craft-workers make you feel at home.  Have a snack in the old railway station buffet and enjoy lunch at Cultra Manor.\n\nThere is a varied programme of events all-year-round, with exciting special seasonal events.</string>
+    <string name="ANDTIM_Spinner_contact_UlsterFolkandTransportMuseum">Address\n153 Bangor Road\nCultra\nHolywood\nCo. Down\nBT18 0EU\n\nTelephone\n028 9042 8428</string>
+    <string name="ANDTIM_Spinner_additional_UlsterFolkandTransportMuseum">Opening Times\n\nMar - Sept, Tues - Sun 10am-5pm\n\nOct - Feb, Tues - Fri 10am-4pm; Sat and Sun 11am-4pm\n\nClosed Mondays except Bank Holiday Mondays</string>
 
-    <string name="ANDTIM_Spinner_description_RamsIsland"></string>
-    <string name="ANDTIM_Spinner_contact_RamsIsland"></string>
-    <string name="ANDTIM_Spinner_additional_RamsIsland"></string>
+    <string name="ANDTIM_Spinner_description_IslandHill">The shore car park overlooks Strangford Lough and is an excellent vantage point for bird watchers.\n\nThis site is situated at the end of the Ringcreevy Road, 3 miles from Newtownards off the Comber Road.  The shore car park overlooks Strangford Lough and is an excellent vantage point for bird watchers.  A path along the edge of the lough leads to a causeway accessible only at low tide, leading to the island.  Island Hill provides magnificent views of the lough. </string>
+    <string name="ANDTIM_Spinner_contact_IslandHill">Address\nIsland Hill\nStrangford\nComber\nCo down\nBT23 5JR</string>
+    <string name="ANDTIM_Spinner_additional_IslandHill">Facilities: Public toilets and picnic tables.\n\nOpening Times\nopen all year round</string>
 
-    <string name="ANDTIM_Spinner_description_ShanesCastle"></string>
-    <string name="ANDTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="ANDTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="ANDTIM_Spinner_description_ExplorisAquarium">Enjoy tropical fish, a shark tank and reptile area at the newly reopend Exploris\n\nEnjoy a diver’s view of marine life from Strangford Lough to the many coral reefs of the Tropical Oceans and enter the dark depths of the Amazon Rainforest where you will see some of it’s inhabitants. Check out our rehabilitation work with common and grey seals in our nursery pens and outdoor pools and enjoy the playful antics of our resident otters.\n\nDon’t miss our unique open pool talks and revisit your childhood memories of the seaside rock pools in our wonderful Kids Zone.  After you’ve enjoyed all the fun relax for brunch, lunch and coffee with a sweet treat in our Café/Restaurant and pick up a treasure in our gift shop.</string>
+    <string name="ANDTIM_Spinner_contact_ExplorisAquarium">Address\nThe Rope Walk\nCastle Street\nPortaferry\nCo. Down\nBT22 1NZ\n\nTelephone\n028 4272 8062</string>
+    <string name="ANDTIM_Spinner_additional_ExplorisAquarium">Opening Times\nSummer Opening:\n1 April - 31 October 10am – 6pm (Last Admission 4.30pm)\nWinter Opening:\n1 Nov - 31 March 10am – 5pm (Last Admission 4pm)</string>
 
 
     <!--Armagh Banbridge Craigavon Tourist Menu-->
@@ -531,10 +532,10 @@
     <string name="armaghbanbridgecraigavon_touristmenu_Title">Armagh, Banbridge &amp; Craigavon Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ABCTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Armagh Planetarium &amp; Observatory</item>
+        <item>F.E. McWilliam Gallery</item>
+        <item>Armagh County Museum</item>
+        <item>Navan Centre &amp; Fort</item>
     </string-array>
     <!--Armagh Banbridge Craigavon Tourist Menu Placeholder Text-->
     <string name="ABCTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -545,21 +546,21 @@
     <string name="ABCTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="ABCTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Armagh Banbridge Craigavon Tourist Menu Information Text-->
-    <string name="ABCTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="ABCTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="ABCTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="ABCTIM_Spinner_description_ArmaghPlanetariumObservatory">Never before has the night sky looked – or sounded – as magnificent as when viewed at Northern Ireland’s only Planetarium. Immerse yourself in a unique experience which is quite simply ‘out of this world’,\nIn the Planetarium’s amazing Digital Theatre you can relax and enjoy a 3-D StarDome show that’s not to be missed. Experience our planet and beyond; touring the night sky, discovering some of the myths behind the star constellations and exploring black holes and cosmic chemistry.\nThe Observatory is located together with Armagh Planetarium in approximately 14 acres of attractive, landscaped gardens known as the Armagh Astropark. The Armagh Observatory, founded in 1789 by Archbishop Richard Robinson, is a modern astronomical research institute with a rich scientific heritage.\n\nOpen all year round during daylight hours, a walk through the Astropark is a stroll through the Universe. The Astropark features a scale model of the Solar System in which every three paces corresponds to 100 million km in space. Close to the main Observatory building are two sundials, historic telescopes and telescope domes, the innovative sonic art installation “aroundNorth” and the Human Orrery, the first of its kind in the world.</string>
+    <string name="ABCTIM_Spinner_contact_ArmaghPlanetariumObservatory">Armagh Planetarium\nCollege Hill, Armagh, BT61 9DB\nTelephone: + 44 [0] 28 3752 3689\n\nArmagh Observatory\nCollege Hill, Armagh , BT61 9DG\nTelephone: +44 [0] 28 3752 2928    </string>
+    <string name="ABCTIM_Spinner_additional_ArmaghPlanetariumObservatory">The Armagh Observatory has an important function to promote, preserve, and widen access to its library, archives and museum collection, which represents a very signiﬁcant component of Northern Ireland’s scientiﬁc heritage.\n\nVisitors can access both the collections database and the reference Library database to find reference material on all collections, on the history of the Observatory and its architecture, and on prominent staff.</string>
 
-    <string name="ABCTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="ABCTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="ABCTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="ABCTIM_Spinner_description_F.E.McWilliamGallery">The F.E. McWilliam Gallery and Studio is dedicated to the memory of sculptor Frederick Edward McWilliam, one of Ireland’s most influential and successful artists. F.E. McWilliam was born in Banbridge on the 30th April 1909. He died in London in 1992 and the executors of his estate donated the sculptor’s studio and its contents to the town of his birth.\n\nFeaturing a permanent display of McWilliam’s work, temporary exhibitions of Irish and international art, a craft shop, café and Banbridge Tourist Information Centre, the F.E. McWilliam Gallery and Studio attracts a wide range of local, national and international visitors. </string>
+    <string name="ABCTIM_Spinner_contact_F.E.McWilliamGallery">200 Newry Road, Banbridge, County Down, BT32 3NB\n\nTelephone: + 44 [0] 28 4062 3322</string>
+    <string name="ABCTIM_Spinner_additional_F.E.McWilliamGallery">A Visitor Information Point, gallery staff are on hand at all times to assist the public with information and to respond to enquiries. Group tours and primary and post primary school groups are very welcome. Visits may be arranged by appointment. There is a programme of art and craft workshops for adults and children which run throughout the year.</string>
 
-    <string name="ABCTIM_Spinner_description_RamsIsland"></string>
-    <string name="ABCTIM_Spinner_contact_RamsIsland"></string>
-    <string name="ABCTIM_Spinner_additional_RamsIsland"></string>
+    <string name="ABCTIM_Spinner_description_ArmaghCountyMuseum">The oldest county museum in Ireland is set in Armagh’s beautiful Georgian tree lined Mall. Located near the centre of St Patrick’s cathedral city, a visit to Armagh County Museum is an ideal way to experience a flavour of the orchard county.</string>
+    <string name="ABCTIM_Spinner_contact_ArmaghCountyMuseum">The Mall East, Armagh, BT61 9BE\n\nT: +44 [0]28 3752 3070 </string>
+    <string name="ABCTIM_Spinner_additional_ArmaghCountyMuseum">The Museum staff aim to ensure that all visitors feel welcome and are keen to help with enquiries.  There is an extensive reference library, rich in local archive material, along with photographic and map collections. With a range of changing exhibitions throughout the year, the Museum is an ideal place to begin and explore the fair county of Armagh. </string>
 
-    <string name="ABCTIM_Spinner_description_ShanesCastle"></string>
-    <string name="ABCTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="ABCTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="ABCTIM_Spinner_description_NavanCentreFort">Navan Centre &amp; Fort is a place where myth and reality meet. It is one of Ireland’s most famous and important archaeological sites, the legendary Emain Macha. Legends say that Macha, the ancient goddess of war and fertility, scored the earth with her brooch pin and traced the famous outline of this sacred stronghold of the hero Cu Chulainn, home of the famous Red Branch Knights and Ulster Cycle of tales.\n\nLiving History At Navan – Have you ever wondered about the past? How did people live their lives 2,000 years ago? What were their homes like? How did they survive? What were their daily tasks? Allow our Living History characters to bring these questions to life before your eyes! This memorable and interactive experience takes place in our replica Iron Age dwelling. Sit down by the fire and witness Iron Age life come alive! Enjoy helping the Celts prepare and cook their meals and get your hands dirty in the garden and herb beds.\n\nPrepare yourself for battle and learn the skills to survive as an ancient warrior, or sit and relax and allow your imagination to wander as the great tradition of storytelling is used to pass on some of the history of the area and the great warriors who once lived here!</string>
+    <string name="ABCTIM_Spinner_contact_NavanCentreFort">81 Killylea Road, Armagh, BT60 4LD\n\nTelephone: +44 (0) 28 3752 9644\n\nE-Mail: navan@armaghbanbridgecraigavon.gov.uk</string>
+    <string name="ABCTIM_Spinner_additional_NavanCentreFort">Facilities at Navan include:\nA condensed exhibition looking at the background of Navan in a local and national context.\nAudio visual show bringing the myths &amp; legends of the Ulster Cycle to life.\nOutstanding Archaeology Discovery Room where archaeology is brought alive to understand the history of Navan.\nA site self-guided map for your visit to Navan Fort, or weather permitting, a fully guided tour to the site.\n\nGreat fun for the kids includes:\nDressing up in Celtic costumes to experience life as a Celt\nBringing archaeology to life by digging in the archeo-pit to uncover bones, coins or maybe even teeth\nCompleting the Navan Ecology Trail to get a prize at the end\nEnjoying the Archaeology Discovery Room and playing in the outdoor activity area on the massive Wolfhound play piece.\n\n[Activities are available daily from April to September, and all are included in your admission fee]\n\nThe ecology trail has interactive activities that will bring the environmental aspects and the conservation work at Navan to life. There is a bug hotel, living willow structure, listening posts, bird boxes, and viewing hide. This is your chance to get up close to the natural environment.\n\nLearn more about other residents at Navan in the hidden crevices of the walls or under the hedges &amp; stones! Through this project, families can reconnect with nature, learn about the environment and most importantly, have fun. The walk to the Navan Mound has been greatly enhanced with information panels and bronze cast artwork that show the great site in a new dimension. Navan has always been a tranquil and intriguing place for walkers, a place of myth and legend. On your return to the Centre take a seat on one of our beautifully carved benches to view the lovely rich landscape where each tree tells its own tale about local ecology and traditional culture.</string>
 
 
     <!--Belfast City Tourist Menu-->
@@ -567,10 +568,10 @@
     <string name="belfastcity_touristmenu_Title">Belfast City Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="BCTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Malone House</item>
+        <item>Belfast Castle</item>
+        <item>Belfast Zoo</item>
+        <item>St George’s Market</item>
     </string-array>
     <!--Belfast City Tourist Menu Placeholder Text-->
     <string name="BCTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -581,21 +582,21 @@
     <string name="BCTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="BCTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Belfast City Tourist Menu Information Text-->
-    <string name="BCTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="BCTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="BCTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="BCTIM_Spinner_description_MaloneHouse">Located on the site of a 17th century fort, Malone House was built in the 1820s for William Wallace Legge, a rich Belfast merchant who had inherited the surrounding land. A keen landscaper, he designed and planted most of the estates grounds, which remain relatively unchanged today.\n\nWhen Legge died, ownership of Malone House passed to the Harberton family, who lived on the premises from 1868 to 1920. The buildings last owner was William Barnett, who presented Malone House to the city of Belfast in 1946. </string>
+    <string name="BCTIM_Spinner_contact_MaloneHouse">Malone House\nBarnett Demesne\nBelfast\nBT9 5PB\n\nTelephone: 028 9068 1246\nFax: 028 9068 2197\nEmail: mhreception@malonehouse.co.uk</string>
+    <string name="BCTIM_Spinner_additional_MaloneHouse">Following its presentation to the city, Malone House was leased to the National Trust in the early 1970s. After it was nearly destroyed by a fire in 1976, the building was repaired by the council and reopened in June 1983.\n\nSince then, it has become a major venue for weddings, conferences, social functions and other events, while the surrounding grounds are popular with walkers and cyclists. </string>
 
-    <string name="BCTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="BCTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="BCTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="BCTIM_Spinner_description_BelfastCastle">The first Belfast Castle was built by the Normans in Belfast city centre in the late 12th century. A second castle, made of stone and timber, was later constructed by Sir Arthur Chichester, Baron of Belfast, on the same site in 1611.\n\nSadly, the castle burned down almost 100 years later, leaving only street names, such as Castle Place, to mark its location.</string>
+    <string name="BCTIM_Spinner_contact_BelfastCastle">Belfast CastleAntrim Rd,Belfast,AntrimBT15 5GR\nT: 028 9077 6925</string>
+    <string name="BCTIM_Spinner_additional_BelfastCastle">Between 1945 and the 1970s Belfast Castle was a popular venue for wedding receptions, dances and afternoon teas.\n\nIn 1978 the castle closed as part of a £2 million refurbishment programme, overseen by Hewitt and Haslam Partnership architects. It reopened on 11 November 1988 and is now a popular venue for weddings, conferences and other events. </string>
 
-    <string name="BCTIM_Spinner_description_RamsIsland"></string>
-    <string name="BCTIM_Spinner_contact_RamsIsland"></string>
-    <string name="BCTIM_Spinner_additional_RamsIsland"></string>
+    <string name="BCTIM_Spinner_description_BelfastZoo">Our 55 acre site is home to more than 130 species, the majority of which are facing increasing danger in their natural habitats.\n\nWe carry out vital conservation work, both in Northern Ireland and around the world. We take part in global and collaborative breeding programmes, which help to ensure the survival of many species under threat.</string>
+    <string name="BCTIM_Spinner_contact_BelfastZoo">Antrim Road,\nBelfast\nAntrim BT36 7NP\n\nTel: 028 9077 6277 </string>
+    <string name="BCTIM_Spinner_additional_BelfastZoo">During the 1950s and 1960s, the zoo went into decline.\n\nBy the time the corporations parks committee took control of the site in 1962, restoration was badly needed and work began on the new zoo site in 1974.\n\nSince then our zoo has gone from strength to strength to become a leading conservation zoo which is respected globally for the work which we carry out.\n\nIf you have any questions about the history of Belfast Zoo or if you would like us to send you a Belfast Zoo history information pack, email history@belfastzoo.co.uk or call 028 9077 6277 (extension 229).</string>
 
-    <string name="BCTIM_Spinner_description_ShanesCastle"></string>
-    <string name="BCTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="BCTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="BCTIM_Spinner_description_StGeorgesMarket">St George’s Market is one of Belfast’s oldest attractions. It was built between 1890 and 1896 and is one of the best markets in the UK and Ireland. It has been selected for numerous local and national titles and awards for its fresh, local produce and great atmosphere. It holds a weekly Friday Variety Market, the City Food and Craft Market on Saturdays and the Sunday Market. It also hosts a range of events throughout the year.\n\nSt George’s Market has joined Jamie Oliver in being named the “best in Britain”. The market has recently added to its growing list of accolades when it was named ‘Best Market’ at the annual Observer Food Monthly Awards. The award was earned by readers’ votes.\n\nIt was named the UKs Best Large Indoor Market 2014 by the National Association of British Market Authorities, beating off stiff competition from internationally renowned markets like Spitalfields, Billingsgate and Borough.\n\nSt George’s Market was also voted the nation’s favourite Heritage project in the 2014 National Lottery Awards. They recognise and reward the inspirational impact of National Lottery funded projects across the UK. There are seven categories, reflecting the main areas of Lottery funding: arts, education, environment, health, heritage, sport, and voluntary or charity. St George’s Market beat off six other challengers in a public vote to win the Best Heritage Project. It received a £2,000 cash prize to spend on the project as well as a coveted National Lottery Awards trophy.</string>
+    <string name="BCTIM_Spinner_contact_StGeorgesMarket">\n12 - 20 East Bridge Street\nBelfast\nBT1 3NQ\n\nT: 028 9043 5704</string>
+    <string name="BCTIM_Spinner_additional_StGeorgesMarket">2017\nWinter Twilight Market - winner of the VM Christmas Awards 2017: Hospitality sector (Restaurants, Coffee Shops, Travel and Leisure)\nBest Market Attraction - National Association of British Market Authorities</string>
 
 
     <!--Causeway Coast Glens Tourist Menu-->
@@ -603,10 +604,10 @@
     <string name="causewaycoastglens_touristmenu_Title">Causeway Coast &amp; Glens Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="CCGTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Ballycastle Museum</item>
+        <item>Roe Valley Arts and Cultural Centre</item>
+        <item>Coast and Countryside</item>
+        <item>Joey Dunlop Leisure Centre</item>
     </string-array>
     <!--Causeway Coast Glens Tourist Menu Placeholder Text-->
     <string name="CCGTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -617,21 +618,21 @@
     <string name="CCGTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="CCGTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Causeway Coast Glens Tourist Menu Information Text-->
-    <string name="CCGTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="CCGTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="CCGTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="CCGTIM_Spinner_description_BallycastleMuseum">Ballycastle Museum is housed in the listed 18th century courthouse and market building in the town centre.  Visitors to the Accredited Museum can explore the permanent display of the fascinating history of the Irish Homes Industries Workshop, its role in the 1904 St Louis World Fair and the Arts and Crafts Revival in Ireland.  Highlights also include Bronze Age archaeology, Boyds 18th century Ballycastle  and the magnificent Taise Banner from the first Feis na nGleann in 1904.</string>
+    <string name="CCGTIM_Spinner_contact_BallycastleMuseum">59 Castle Street,\nBallycastle BT54 6AS\n\nT: 028 2076 2024</string>
+    <string name="CCGTIM_Spinner_additional_BallycastleMuseum">Museum Open: September: Friday &amp; Saturday 10am – 6pm and Sunday 2 - 6pm\n\nOctober – December: Closed for winter.</string>
 
-    <string name="CCGTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="CCGTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="CCGTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="CCGTIM_Spinner_description_RoeValleyArtsandCulturalCentre">An award-winning arts and conference facility situated at the heart of Limavady town, the centre provides a wonderful arts and heritage events programme throughout the year, including theatre, music, visual arts and crafts, local histories, film, creative learning and outreach activities for all.  It features multi-purpose spaces such as the Danny Boy Auditorium with 238 seating capacity, the O’Hampsey Dance Studio, three exhibition galleries, boardrooms and art workshop rooms. The Centre has Drumceatt Square, an outdoor performance space which functions as Limavady Town Square, a Visitor Information Centre, Gift Shop retailing local and regionally produced quality arts and crafts and a Family Zone which includes a community book swap and dedicated childrens reading area with books and toys. Please come in, sit back, relax and enjoy our free Wi-Fi.</string>
+    <string name="CCGTIM_Spinner_contact_RoeValleyArtsandCulturalCentre">24 Main Street, \nLimavady \nBT49 0FJ \n\nT: (028) 7776 0650</string>
+    <string name="CCGTIM_Spinner_additional_RoeValleyArtsandCulturalCentre">Limavady Museum  is also based here, allowing visitors to explore the history of Limavady and local area through a programme of temporary exhibitions, talks and workshops. An appointment can be made with Museum Services to explore other parts of the accredited collection.</string>
 
-    <string name="CCGTIM_Spinner_description_RamsIsland"></string>
-    <string name="CCGTIM_Spinner_contact_RamsIsland"></string>
-    <string name="CCGTIM_Spinner_additional_RamsIsland"></string>
+    <string name="CCGTIM_Spinner_description_CoastandCountryside">The Causeway Coast and Glens Borough is home to some of the most iconic landscapes in Northern Ireland.  A popular year round visitor destination, it provides multiple opportunities for residents and visitors to enjoy the outdoors. At just under 2000 square kilometres and boasting approximately 125 miles of world famous coastline, the Borough stretches from Lough Foyle in the west to the Glens of Antrim in the east, and from the Causeway Coast and Rathlin in the north to the Sperrins and Bann Valley in the south.\n\nCouncil recognises the value of this landscape and through its Coast and Countryside Unit aims to lead on its development, promotion and management in a responsible and sustainable manner.</string>
+    <string name="CCGTIM_Spinner_contact_CoastandCountryside">T: 028 7034 7234</string>
+    <string name="CCGTIM_Spinner_additional_CoastandCountryside">District Councils in Northern Ireland have a duty under Section 3 (1) of The Access to the Countryside (NI) Order 1983 to “assert, protect and keep open and free from obstruction or encroachment any public right of way; and for this purpose a district council may institute proceedings in its own name”.  This duty also requires the investigation of alleged public rights of way, to determine whether or not same exists.</string>
 
-    <string name="CCGTIM_Spinner_description_ShanesCastle"></string>
-    <string name="CCGTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="CCGTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="CCGTIM_Spinner_description_JoeyDunlopLeisureCentre">Health Suite, 2 Swimming Pools, Spa Pool, Soft Play Centre, Fitness Studio with the latest pulse fitness equipment, Cardio Theatre including 48" television screens, Dance Studio, Sauna and Steam Room.\n\nJoey Dunlop Leisure Centre is a modern leisure centre situated on the Garryduff Road in Ballymoney. As of April 2015 the Leisure Centre is owned and managed by Causeway Coast &amp; Glens Borough Council.</string>
+    <string name="CCGTIM_Spinner_contact_JoeyDunlopLeisureCentre">If you would like further information, please contact us at Joey Dunlop Leisure Centre,33 Garryduff Road, Ballymoney BT53 7DB.\n\nT: 02827660260</string>
+    <string name="CCGTIM_Spinner_additional_JoeyDunlopLeisureCentre"></string>
 
 
     <!--Derry Strabane Tourist Menu-->
@@ -639,10 +640,10 @@
     <string name="derrystrabane_touristmenu_Title">Derry &amp; Strabane Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="DSTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Alley Arts and Conference Centre</item>
+        <item>Guildhall</item>
+        <item>Tower Museum</item>
+        <item>The Foyle Maritime Festival</item>
     </string-array>
     <!--Derry Strabane Tourist Menu Placeholder Text-->
     <string name="DSTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -653,21 +654,21 @@
     <string name="DSTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="DSTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Derry Strabane Tourist Menu Information Text-->
-    <string name="DSTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="DSTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="DSTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="DSTIM_Spinner_description_AlleyArtsandConferenceCentre">The Alley Arts and Conference Centre is a state of the art theatre complex, art gallery and conference centre based in the heart of Strabane, County Tyrone.\n\nOffering top class entertainment, arts development and conference facilities, the Alley Arts and Conference Centre is now recognized as one of the leading arts and conference venues within the North West of Ireland.</string>
+    <string name="DSTIM_Spinner_contact_AlleyArtsandConferenceCentre">1a Railway Street\nStrabane\nCo.Tyrone\n\nT: 028 71 384444</string>
+    <string name="DSTIM_Spinner_additional_AlleyArtsandConferenceCentre">The Alley Arts and Conference Centre Box Office and Visitor Information Centre is open Monday - Saturday 10am - 4.30pm and one hour before evening performances until 9.30pm\n\nThe Alley Art Gallery is open Monday - Saturday 10am - 5pm and on evenings of performances</string>
 
-    <string name="DSTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="DSTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="DSTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="DSTIM_Spinner_description_Guildhall">The Guildhall is one of Derry’s most recognisable landmarks and has been at the heart of city life since 1890.\n\nAs well as being home to the Council’s chamber and Mayor’s Parlour, the Guildhall is a must see visitor destination where you can be sure of a warm welcome.\n\nWhile visiting the Guildhall you can see the stunning stained glass windows, an exhibition on the Plantation of Ulster, visit the main hall and organ or enjoy refreshments in the cafe.</string>
+    <string name="DSTIM_Spinner_contact_Guildhall">Guildhall St. \nDerry-Londonderry\nNorthern Ireland \nBT48 6DQ \n\nTel: 028 7137 6510  \nEmail: guildhall@derrystrabane.com</string>
+    <string name="DSTIM_Spinner_additional_Guildhall">ACCESSIBILITY\n\nThe following access provision is available in the Guildhall:\nExternal ramp at front of building\nPlatform lift at rear entrance/exit\nInternal lift to first floor\nAccessible toilets are located on ground and first floor</string>
 
-    <string name="DSTIM_Spinner_description_RamsIsland"></string>
-    <string name="DSTIM_Spinner_contact_RamsIsland"></string>
-    <string name="DSTIM_Spinner_additional_RamsIsland"></string>
+    <string name="DSTIM_Spinner_description_TowerMuseum">The award winning Tower Museum is located within the city’s historic walls.  The museum also boasts the only open air viewing facility in the heart of the city centre with stunning panoramic views of the city and River Foyle.</string>
+    <string name="DSTIM_Spinner_contact_TowerMuseum">Tower Museum\nUnion Hall Place\nDerry~Londonderry\nBT48 6LU\n\nTel: 028 7137 2411\nFax: 028 7136 6018\n\nEmail: tower.reception@derrystrabane.com</string>
+    <string name="DSTIM_Spinner_additional_TowerMuseum">ACCESSIBILITY\nThe following access provision is available in the Tower Museum\nLevel access at main entrance\nInternal lift to all 5 levels of Armada Shipwreck – La Trinidad Valencera exhibition including viewing area of city \nInternal lift to museum services area – access to research facilities &amp; genealogy service\nLevel access to learning area \nAccessible toilets are located on ground floor\n\nPlease note that due to the care of the museum collection some areas of the museum are subject to low light levels.</string>
 
-    <string name="DSTIM_Spinner_description_ShanesCastle"></string>
-    <string name="DSTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="DSTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="DSTIM_Spinner_description_TheFoyleMaritimeFestival">The Foyle Maritime Festival returns to Derry~Londonderry from 14th – 22nd July 2018 and will host the stopover of the Clipper Race 2017-18 as they near the end of their Round the World Journey.\n\nQueens Quay will once again be transformed into a maritime wonderland full of fun, activities, music, arts and crafts as we prepare to welcome the Clipper Race yachts back!</string>
+    <string name="DSTIM_Spinner_contact_TheFoyleMaritimeFestival">98 Strand Road, Derry, BT48 7NN\n\nT: (028) 7125 3253</string>
+    <string name="DSTIM_Spinner_additional_TheFoyleMaritimeFestival"></string>
 
 
     <!--Fermanagh and Omagh Tourist Menu-->
@@ -675,10 +676,10 @@
     <string name="fermanaghomagh_touristmenu_Title">Fermanagh &amp; Omagh Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="FOTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Enniskillen Castle Museums</item>
+        <item>Strule Arts Centre</item>
+        <item>The Ardhowen</item>
+        <item>Marble Arch Caves Global Geopark</item>
     </string-array>
     <!--Fermanagh and Omagh Tourist Menu Placeholder Text-->
     <string name="FOTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -689,21 +690,21 @@
     <string name="FOTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="FOTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Fermanagh and Omagh Tourist Menu Information Text-->
-    <string name="FOTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="FOTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="FOTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="FOTIM_Spinner_description_EnniskillenCastleMuseums">Enniskillen Castle, situated beside the River Erne in County Fermanagh, was built almost 600 years ago by the ruling Gaelic Maguires. Guarding one of the few passes into Ulster, it has been strategically important throughout its history. Today, the historic site houses two museums, Fermanagh County Museum and The Inniskillings Museum.</string>
+    <string name="FOTIM_Spinner_contact_EnniskillenCastleMuseums">Fermanagh County Museum, \nEnniskillen Castle Museums, \nEnniskillen, \nCo Fermanagh, \nN. Ireland, \nBT74 7HL</string>
+    <string name="FOTIM_Spinner_additional_EnniskillenCastleMuseums">Admission into the Visitor Centre (Visitor Information Centre, Shop, Castle Café, Discovery Space, Fermanagh Genealogy Centre) is FREE. Entry into Enniskillen Castle Museums is detailed below:\n\nThe admission rates below are valid until 31 March 2018:\nAdult: £5.00\nChild: £3.50 \nStudent/Senior Concession: £3.50\nFamily (2 Adults + 3 Children): £13.50 </string>
 
-    <string name="FOTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="FOTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="FOTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="FOTIM_Spinner_description_StruleArtsCentre">Strule Arts Centre is an award-winning contemporary arts venue and conference centre that is home to theatre performances, comedy, music, dance, workshops, exhibitions and so much more. With state of the art facilities and stunning views, Strule Arts Centre is the perfect setting to host any event, conveniently located in the heart of Omagh close to transport links and town centre parking. The facility features a 384 seat auditorium, lecture theatre, visual arts gallery, museum exhibitions, dance studio, workshop space, art studio, meeting rooms, café and bar.</string>
+    <string name="FOTIM_Spinner_contact_StruleArtsCentre">Strule Arts Centre\nTownhall Square\nOmagh\nCo. Tyrone\nBT78 1BL</string>
+    <string name="FOTIM_Spinner_additional_StruleArtsCentre">All the information you need about Strule Arts Centre to plan your visit. Information on purchasing tickets, getting to the venue, exhibitions, the Roof Top Museum and much more. If you can’t find what you are looking for drop us an email at strulearts@fermanaghomagh.com or give us a call 028 8224 7831, we are always happy to help.</string>
 
-    <string name="FOTIM_Spinner_description_RamsIsland"></string>
-    <string name="FOTIM_Spinner_contact_RamsIsland"></string>
-    <string name="FOTIM_Spinner_additional_RamsIsland"></string>
+    <string name="FOTIM_Spinner_description_TheArdhowen">Ardhowen Theatre is a theatre in Enniskillen, County Fermanagh, Northern Ireland. It was opened in 1986 and is run by Fermanagh District Council.</string>
+    <string name="FOTIM_Spinner_contact_TheArdhowen">97 Dublin Road,\nDerrychara,\nEnniskillen,\nCo. Fermanagh,\nBT74 6FZ</string>
+    <string name="FOTIM_Spinner_additional_TheArdhowen">GENERAL TERMS AND CONDITIONS\n\nPatrons are advised that tickets cannot be exchanged or refunded. The Ardhowen reserves the right to offer special discounted ticket prices at any time. Reservations held for more than 4 days which have not been paid for will be automatically deleted from the system.\n\nThe use of cameras or recording equipment (visual and audio) is strictly prohibited in The Ardhowen. Mobile phones must be switched off during performances. The Ardhowen is a non-smoking facility.\n\nEvent details are correct at the time of going to print. We reserve the right to alter the programme (including venue seating arrangements) in the event of unforeseen circumstances.\n\nA copy of the full terms and conditions is available from Box Office.</string>
 
-    <string name="FOTIM_Spinner_description_ShanesCastle"></string>
-    <string name="FOTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="FOTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="FOTIM_Spinner_description_MarbleArchCavesGlobalGeopark">Originally employing only a handful of staff the Marble Arch Caves enjoyed a great deal of success and quickly expanded its facilities to accommodate ever growing numbers of visitors.  In 1998 the adjacent Cuilcagh Mountain Park was opened on the northern slopes of Cuilcagh Mountain,fulfilling a vital conservation responsibility for the endangered blanket bog, but also providing a welcome recreational resource, with safe access to the summit of Cuilcagh Mountain.</string>
+    <string name="FOTIM_Spinner_contact_MarbleArchCavesGlobalGeopark">Marble Arch Caves Global Geopark\n43 Marlbank Road\nLegnabrocky\nFlorencecourt\nCounty Fermanagh\nNorthern Ireland BT92 1EW</string>
+    <string name="FOTIM_Spinner_additional_MarbleArchCavesGlobalGeopark">THE GEOPARK NETWORK\nThe Global Geoparks Network (GGN) is currently made up of 127 UNESCO Global Geoparks in 35 countries across the world.\n\nIt provides a platform for cooperation and exchange between experts and practitioners in geological heritage and its protection, education and sustainable development. Through cooperation with  Global Geoparks Network partners, important local and national geological sites gain worldwide recognition and benefit from the exchange of knowledge and expertise with other UNESCO Global Geoparks, and improve the quality of the UNESCO Global Geoparks label.\n\nUNESCO and the GGN develop models of best practice and set quality standards for territories that integrate the preservation of geological heritage into strategies for regional sustainable economic development. Members of the GGN are committed together and join in common projects to raise the quality standards of all products and practices of a UNESCO Global Geopark. By working together across borders, UNESCO Global Geoparks contribute to increasing understanding among different communities and as such contribute to not only economic development, but also to peace-building processes. Visit the UNESCO website for more information.</string>
 
 
     <!--Lisburn and Castlereagh Tourist Menu-->
@@ -711,10 +712,10 @@
     <string name="lisburncastlereagh_touristmenu_Title">Lisburn &amp; Castlereagh Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="LCTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Dundonald International Ice Bowl</item>
+        <item>Island Arts Centre</item>
+        <item>Irish Linen Centre and Lisburn Museum</item>
+        <item>Lagan Valley Island</item>
     </string-array>
     <!--Lisburn and Castlereagh Tourist Menu Placeholder Text-->
     <string name="LCTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -725,21 +726,21 @@
     <string name="LCTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="LCTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Lisburn and Castlereagh Tourist Menu Information Text-->
-    <string name="LCTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="LCTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="LCTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="LCTIM_Spinner_description_DundonaldIceBowl">Welcome to Dundonald International Ice Bowl\nEnjoy a great day out at Dundonald International Ice Bowl with a host of fantastic activities all under one roof!\n\nYou can choose to go ice skating at Northern Ireland’s only public Olympic size ice rink, become king of the lanes in the 30 lane state of the art bowling centre with spectacular glow in the dark Xtreme sessions or go wild for the adventure and excitement of the Indiana Land play kingdom.\n\nIt’s the perfect venue for a family day out, birthday party, group outing or corporate event with a range of exciting activities for adults and children.</string>
+    <string name="LCTIM_Spinner_contact_DundonaldIceBowl">111 Old Dundonald Road, \nBelfast\nBT16 1XT, \nNorthern Ireland   \n\nT: 028 9080 9100</string>
+    <string name="LCTIM_Spinner_additional_DundonaldIceBowl">Safeguarding\n\nLisburn &amp; Castlereagh City Council has developed a Child and Adults at Risk Safeguarding Policy, which applies to all employees, elected members, volunteers, contractors, grant-aided organisations and those using our facilities irrespective of their function, remit or role. It can be accessed by clicking here</string>
 
-    <string name="LCTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="LCTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="LCTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="LCTIM_Spinner_description_IslandArtsCentre">ISLAND is a triumph of design, technical development and construction, offering arts presenters and the people of Northern Ireland a choice of venues and services to suit every need.\n\nOpened in June 2001, ISLAND has earned the excellent reputation as one of Ireland’s major leading multi-arts venues. ISLAND proudly presents a unique diversity of arts and entertainment choices all year round and is Lisburn City Council’s visually stunning arts base for Lisburn’s vibrant cultural and creative scene.\n\nJoin over 280,000 visitors a year who visit ISLAND and experience the expectation and excitement of live theatre performances, music, dance and children’s’ theatre from Northern Ireland’s top performers, and an array of national and international companies.\n\nBursting at the seams with creativity, ISLAND Arts Centre runs a year round firstclass programme of diverse classes and workshops including visual and verbal arts, community arts, performing arts and a full education programme that actively encourages people of all abilities to explore and preserve our arts heritage.</string>
+    <string name="LCTIM_Spinner_contact_IslandArtsCentre">ISLAND Arts Centre\nThe Island\nLISBURN\nBT27 4RL\n\nInformation T: 028 92 509 509\nBox Off T: 028 92 509 254\nText Phone T: 028 92 509 508</string>
+    <string name="LCTIM_Spinner_additional_IslandArtsCentre">Safeguarding\nLisburn &amp; Castlereagh City Council has developed a Child and Adults at Risk Safeguarding Policy, which applies to all employees, elected members, volunteers, contractors, grant-aided organisations and those using our facilities irrespective of their function, remit or role</string>
 
-    <string name="LCTIM_Spinner_description_RamsIsland"></string>
-    <string name="LCTIM_Spinner_contact_RamsIsland"></string>
-    <string name="LCTIM_Spinner_additional_RamsIsland"></string>
+    <string name="LCTIM_Spinner_description_IrishLinenCentreandLisburnMuseum">Originally a museum focusing on the local history of Lisburn and the Lagan Valley, the museum expanded in 1994 with the opening of the Irish Linen Centre.\n\nThe Museum aims to collect, safeguard and interpret artefacts and information relating to the Irish linen industry and the history of the Lagan Valley.\n\nExplore Ireland’s industrial heritage in the Museum’s award-winning exhibition ‘Flax to Fabric: the Story of Irish Linen’. Trace the history of linen production in Ulster, from the earliest times to the present, and see live spinning and weaving demonstrations. The Irish Linen Centre &amp; Lisburn Museum’s galleries also feature a range of temporary and visiting exhibitions, featuring: the history of Lisburn, and its people; local artists, from Blackshaw to Mcloy; textile and linen display; local poets, writers and personalities.</string>
+    <string name="LCTIM_Spinner_contact_IrishLinenCentreandLisburnMuseum">Market Square,\nLisburn,\nBT28 1AG\n\nPhone: +44 28 9266 3377</string>
+    <string name="LCTIM_Spinner_additional_IrishLinenCentreandLisburnMuseum">Safeguarding\nLisburn &amp; Castlereagh City Council has developed a Child and Adults at Risk Safeguarding Policy, which applies to all employees, elected members, volunteers, contractors, grant-aided organisations and those using our facilities irrespective of their function, remit or role.</string>
 
-    <string name="LCTIM_Spinner_description_ShanesCastle"></string>
-    <string name="LCTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="LCTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="LCTIM_Spinner_description_LaganValleyIsland">Lagan Valley Island is one of Northern Irelands premier venues. With a unique mix of civic, business and arts facilities, the Centre caters for\nConferences and meetings\nExhibitions\nTheatre events &amp; concerts \nWeddings and banquets.\n\nA striking purpose built venue, Lagan Valley Island caters for up to 402 people, with an extensive choice of rooms available - all with full disabled access.\n\nWe also provide site tours of the facilities here at Lagan Valley Island for large and small groups. These tours need booked in advance.</string>
+    <string name="LCTIM_Spinner_contact_LaganValleyIsland">Lagan Valley Island,\nLisburn,\nCo. Antrim,\nBT27 4RL\nPhone: 028 9250 9292</string>
+    <string name="LCTIM_Spinner_additional_LaganValleyIsland">Find Us\nLocated in the heart of Lisburn City in Northern Ireland, Lagan Valley Island is just minutes from the M1 Motorway and just 10 minutes from Belfast City and surrounding areas.\n\nWith 300 free car parking spaces and the train and bus station within walking distance, the venue is extremely accessible to all. The nearby 90-bedroom Premier Inn Hotel offers quality accommodation on our doorstep.</string>
 
 
     <!--Mid East Antrim Tourist Menu-->
@@ -747,10 +748,10 @@
     <string name="mideastantrim_touristmenu_Title">Mid East Antrim Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="MEATIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Carrickfergus Castle</item>
+        <item>Larne Museum and Arts Centre</item>
+        <item>The Gobbins</item>
+        <item>Carnlough Beach</item>
     </string-array>
     <!--Mid East Antrim Tourist Menu Placeholder Text-->
     <string name="MEATIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -761,21 +762,21 @@
     <string name="MEATIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="MEATIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Mid East Antrim Tourist Menu Information Text-->
-    <string name="MEATIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="MEATIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="MEATIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="MEATIM_Spinner_description_CarrickfergusCastle">Besieged by the Scots, English, Irish and French at various points throughout its history, it has racked up over 750 years of continuous military occupation until 1928, when it was transferred from the War Department to the Ministry of Finance for preservation as an ancient monument. However its days of action were not over. During World War II, it was used as an air raid shelter.\n\nThe castle now houses historical displays as well as cannons from the 17th to the 19th centuries and visitors are encouraged to explore the castle’s large halls and dark corners - there are ramparts, dungeons and even winding staircases with trip steps to deter any invaders.</string>
+    <string name="MEATIM_Spinner_contact_CarrickfergusCastle">Carrickfergus Castle\nMarine Highway\nCarrickfergus\nCounty Antrim\nBT38 7BG</string>
+    <string name="MEATIM_Spinner_additional_CarrickfergusCastle">Additional Information:\nThere is limited disabled access for wheelchair users.\nAll children must be accompanied by an adult.\nNo dogs allowed except guide dogs and assistance dogs</string>
 
-    <string name="MEATIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="MEATIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="MEATIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="MEATIM_Spinner_description_LarneMuseumandArtsCentre">The museum is managed by Mid and East Antrim Borough Council, and forms part of the Mid-Antrim Museums Service alongside similar local museums in Ballymena, Carrickfergus and Newtownabbey.\n\nThe Museum is open Monday - Friday, 10.00am - 4.30pm each day.  Admission Free. </string>
+    <string name="MEATIM_Spinner_contact_LarneMuseumandArtsCentre">Larne Museum &amp; Arts Centre\nMid and East Antrim Borough Council\n2 Victoria Road\nLarne\nBT40 1RN</string>
+    <string name="MEATIM_Spinner_additional_LarneMuseumandArtsCentre">Monday - Friday, 10.00am - 4.30pm\nAdmission free.\n\nSaturday Opening:\nLarne Museum &amp; Arts Centre is currently open on one Saturday per month from 10.00am - 4.30pm.</string>
 
-    <string name="MEATIM_Spinner_description_RamsIsland"></string>
-    <string name="MEATIM_Spinner_contact_RamsIsland"></string>
-    <string name="MEATIM_Spinner_additional_RamsIsland"></string>
+    <string name="MEATIM_Spinner_description_TheGobbins">On the very edge of the Irish Sea lie The Gobbins cliffs. These towering giants cling to the edge of Islandmagee some 20 miles / 32 kilometres north of Belfast on the stunning Causeway Coastal Route. Walking the cliff paths at The Gobbins is an exhilarating adventure that will excite all the senses.</string>
+    <string name="MEATIM_Spinner_contact_TheGobbins">Middle Road, \nIslandmagee \nBT40 3SX, \nUK</string>
+    <string name="MEATIM_Spinner_additional_TheGobbins">How long is the walk?\nThe cliff path itself is accessed by a steep downhill walk for about 1km or 15 minutes walking time. The length of the path itself is about ¾ mile / 1.2km but you will walk this twice as part of your experience. You will also need to be comfortable to walk back up the steep path on your return journey.\n\nWhat should we wear?\nWear outdoor clothing according to the weather, layers are best as it can be windy but as you will be walking you may get warm. Walking shoes or trainers with a flat sole and good treads and a waterproof jacket or poncho are required. Even if it is not raining you are likely to get a splash or two from waves or the resident sea birds!\n\nIs it suitable for children?\nDue to the nature of the attraction and for everyone’s safety and enjoyment there is a height restriction in place similar to those used by some roller coasters. The attraction may not be suitable for most children under the age of 8,  you can phone in advance of booking your visit for further guidance is required.</string>
 
-    <string name="MEATIM_Spinner_description_ShanesCastle"></string>
-    <string name="MEATIM_Spinner_contact_ShanesCastle"></string>
-    <string name="MEATIM_Spinner_additional_ShanesCastle"></string>
+    <string name="MEATIM_Spinner_description_CarnloughBeach">Carnlough is 23km north of Larne just 2km beyond Glenarm. The village has a variety of shops and places to eat. Carnlough Bay is 1.5km wide and at high tide, the sea reaches up to the road  near the village. The sea wall has several accesses down to the sandy beach via steps and a ramp which is suitable for wheelchairs.\n\nAt South Bay car park, a feature of the beach is the beautiful rounded pebbles.There is also a modern play park here.</string>
+    <string name="MEATIM_Spinner_contact_CarnloughBeach">Carnlough\nBallymena \nBT44 0HQ, \nUK</string>
+    <string name="MEATIM_Spinner_additional_CarnloughBeach">The southern end of the beach is beyond the high tide line so does not have to be vacated when the tide comes in. Car parking is available alongside the road and also at a car park located next to local shops and public toilets which are just opposite the famous picturesque traditional harbour.</string>
 
 
     <!--Mid Ulster Tourist Menu-->
@@ -783,10 +784,10 @@
     <string name="midulster_touristmenu_Title">Mid Ulster Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="MUTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Burnavon Arts &amp; Cultural Centre</item>
+        <item>Seamus Heaney HomePlace</item>
+        <item>Lough Neagh</item>
+        <item>Cookstown Leisure Centre</item>
     </string-array>
     <!--Mid Ulster Tourist Menu Placeholder Text-->
     <string name="MUTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -797,21 +798,21 @@
     <string name="MUTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="MUTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Mid Ulster Tourist Menu Information Text-->
-    <string name="MUTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="MUTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="MUTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="MUTIM_Spinner_description_BurnavonArtsCulturalCentre">The hub for arts, drama, music, theatre and dance in Mid Ulster, the Burnavon stages high quality performances, as well as a varied arts and cultural programme, Irish language activities and a visitor information service.</string>
+    <string name="MUTIM_Spinner_contact_BurnavonArtsCulturalCentre">Burn Rd, \nCookstown \nBT80 8DN</string>
+    <string name="MUTIM_Spinner_additional_BurnavonArtsCulturalCentre">The Burnavon Arts &amp; Cultural Centre, Cookstown is conveniently situated in the heart of Mid Ulster.  The venue is easily accessible from all parts of Northern Ireland and is a short distance away from both the M1 &amp; M2 Motorways.\n\nThere is also FREE parking available in the car park adjacent to the Burnavon.</string>
 
-    <string name="MUTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="MUTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="MUTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="MUTIM_Spinner_description_SeamusHeaneyHomePlace">Poet, playwright, translator, lecturer, Nobel Laureate.\n\nListen to the personal stories of family and friends.\nHear how Heaney was valued by influential figures around the world.\nExperience everything from poetry to drama and dance in the  performance space.\nGet creative in our learning zones for children and adults.</string>
+    <string name="MUTIM_Spinner_contact_SeamusHeaneyHomePlace">45 Main Street\nBellaghy\nBT45 8HT\nTelephone: 028 7938 7444\nEmail: seamusheaneyhome@midulstercouncil.org</string>
+    <string name="MUTIM_Spinner_additional_SeamusHeaneyHomePlace">Seamus Heaney was born at Mossbawn on 13 April 1939, near the village of Bellaghy, the eldest of 9 children.\n\nHe attended Anahorish Primary School, before continuing his education from 1951 as a boarder at St Columbs College in Derry.\n\nHe gained a first class honours degree in English Language and Literature from Queens University, Belfast (QUB) in 1961 and it was during this period that his first poems were published in student magazines.\n\nHe went on to qualify as a teacher, taking up a post in St Thomass Secondary School in Belfast before being appointed Lecturer in English at St Josephs College of Education.\n\nIn 1966 his first collection of poems, Death of a Naturalist, was published and in the same year he was appointed to the faculty of QUB as a lecturer in English. He was subsequently a professor at both Harvard University and Oxford University.\n\nHe wrote and published poetry, plays, essays and translations throughout his life and in 1995 he was awarded the Nobel Prize in Literature, sealing his reputation as one of Irelands literary greats.\n\nHe died in Dublin in 2013 and chose Bellaghy as his final resting place.</string>
 
-    <string name="MUTIM_Spinner_description_RamsIsland"></string>
-    <string name="MUTIM_Spinner_contact_RamsIsland"></string>
-    <string name="MUTIM_Spinner_additional_RamsIsland"></string>
+    <string name="MUTIM_Spinner_description_LoughNeagh">The largest lake in Ireland and Britain, Lough Neagh borders five counties and captivates visitors with its tranquil atmosphere, un-spoilt scenery, secluded bays and skyward views.\n\nA haven for wildlife and home to a wealth of flora and fauna, the Lough supports thousands of wildfowl and a large-scale eel fishing industry, and also has a rich Christian Heritage with the remnants of three round towers and one of the finest high crosses in the whole of Ireland, Ardboe Cross.</string>
+    <string name="MUTIM_Spinner_contact_LoughNeagh">Lough Neagh Partnership Limited\nUnit 3 The Marina Centre,\n135a Shore Road,\nBallyronan,\nMagherafelt,\nCo. Derry,\nBT45 6JA\n\nT: 028 7941 7941\nE: info@discoverloughneagh.com</string>
+    <string name="MUTIM_Spinner_additional_LoughNeagh">Did you know!\n\nLough Neagh is said to have its very own Atlantis? According to myth the people of one of the kingdoms of ancient Ireland had a magical spring of freshwater.  When the people became greedy the spring rose up and flooded the kingdom, leaving an underwater city beneath the waves of Lough Neagh.</string>
 
-    <string name="MUTIM_Spinner_description_ShanesCastle"></string>
-    <string name="MUTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="MUTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="MUTIM_Spinner_description_CookstownLeisureCentre">From swimming to spinning, Cookstown Leisure Centre has a great range of leisure facilities. Find out what’s on offer for adults, children and families. Our latest programme brochure is on this page and gives detailed information about whats on.\n\nAnd dont forget, you can book online for swimming lessons, squash courts, fitness classes and 10 Pin Bowling!</string>
+    <string name="MUTIM_Spinner_contact_CookstownLeisureCentre">Cookstown Leisure Centre\n78 Fountain Road\nCookstown, BT80 8QF\n\nT: 028 8676 3853\nE: leisure@midulstercouncil.org </string>
+    <string name="MUTIM_Spinner_additional_CookstownLeisureCentre">Ask at reception for a ‘Drop In’ Loyalty Card. Attend any of our Drop In Classes and bank yourself a free swim via use of the Drop-in Loyalty Card. On completion of 6 Drop In Classes treat yourself to your next Drop In Class free or alternatively enjoy a free session in the Health Suite.​</string>
 
 
     <!--Newry, Mourne, Down Tourist Menu-->
@@ -819,10 +820,10 @@
     <string name="newrymournedown_touristmenu_Title">Newry, Mourne &amp; Down Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="NMDTIM_Spinner_Array_Titles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Newry and Mourne Museum</item>
+        <item>Maghera Church And Round Tower</item>
+        <item>FE McWilliam Gallery and Studio</item>
+        <item>Dundrum Heritage Trail</item>
     </string-array>
     <!--Newry, Mourne, Down Tourist Menu Placeholder Text-->
     <string name="NMDTIM_activity_AreaDescriptionHeading">\nAbout</string>
@@ -833,20 +834,20 @@
     <string name="NMDTIM_activity_AreaAdditionalHeading">\nWhere are we?</string>
     <string name="NMDTIM_activity_AreaAdditionalDescription">Additional Information</string>
     <!--Newry, Mourne, Down Tourist Menu Information Text-->
-    <string name="NMDTIM_Spinner_description_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="NMDTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse"></string>
-    <string name="NMDTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse"></string>
+    <string name="NMDTIM_Spinner_description_NewryandMourneMuseum">Newry and Mourne Museum first opened in 1986 in Newry Arts Centre and moved to larger premises at Bagenal’s Castle in March 2007. It has welcomed visitors from all over the world who have enjoyed the rich tapestry of this region’s history on display throughout the building.\n\nBuilt in the environs of the site of a 12th century Cistercian abbey, Bagenal’s Castle is an early example of a fortified residence.\n\nThe Castle’s exact location was lost over the years due to constant adaptation of the building, not least when the premises were purchased by Arthur McCann Ltd in 1894 and converted into a bakery.\n\nRediscovered in 1996 when McCann’s sold the site, the Castle has been sympathetically restored.  During the restoration process, drawings from a survey of the Castle completed c.1570 allowed archaeologists to uncover many original features of the Castle and these have been interpreted for the visitor.\n\nThe main exhibitions in the Museum include prehistoric material, Newry as a merchant town, the working life of the area and modern experiences of living in a Border area. Changes are made to the main exhibitions on an annual basis.</string>
+    <string name="NMDTIM_Spinner_contact_NewryandMourneMuseum">Newry and Mourne Museum\nBagenals Castle\nCastle Street\nNewry BT34 2BY\n\nTelephone: 028 3031 3182\nEmail: museum@nmandd.org</string>
+    <string name="NMDTIM_Spinner_additional_NewryandMourneMuseum">There are plenty of events and activities for young and old on offer throughout the year, including family arts and crafts, a vibrant lecture series, craft workshops, a free tour every Sunday and much more.\n\nThere are also child friendly activities throughout the Museum, including interactives, a comic and costumes that children can try on, which bring history to life.\n\nThe wide range of activities on offer means there is something on offer for all visitors to Newry and Mourne Museum.</string>
 
-    <string name="NMDTIM_Spinner_description_BallyrobertGardens"></string>
-    <string name="NMDTIM_Spinner_contact_BallyrobertGardens"></string>
-    <string name="NMDTIM_Spinner_additional_BallyrobertGardens"></string>
+    <string name="NMDTIM_Spinner_description_MagheraChurchAndRoundTower">Maghera Church and Round Tower is of major historical importance and is among many important heritage sites throughout County Down.</string>
+    <string name="NMDTIM_Spinner_contact_MagheraChurchAndRoundTower">Carrigs Road\nNewcastle\nCounty Down\nBT33 0JT\n\nT: (028) 9082 3207</string>
+    <string name="NMDTIM_Spinner_additional_MagheraChurchAndRoundTower">Opening times\nOpen access all year round.\n\nPrices\nAdmisison free.\n\nDirections from Town\n2 miles (3.2km) north-north-west of Newcastle in Carnacavill townland, beside the Church of Ireland parish church. Gated drive from road leads to car park at church.</string>
 
-    <string name="NMDTIM_Spinner_description_RamsIsland"></string>
-    <string name="NMDTIM_Spinner_contact_RamsIsland"></string>
-    <string name="NMDTIM_Spinner_additional_RamsIsland"></string>
+    <string name="NMDTIM_Spinner_description_FEMcWilliamGalleryandStudio">The F.E. McWilliam Gallery and Studio is dedicated to the memory of Banbridge-born sculptor Frederick Edward McWilliam, one of Ireland’s most influential and successful artists. Frederick Edward McWilliam was born in Banbridge on the 30th April 1909. He died in London in 1992 and the executors of his estate donated the sculptors studio and its contents to the town of his birth. The Gallery and studio houses the collection in a superb exhibition facility of Gallery, sculpture garden and reconstructed studio. It also provides café, craft shop and a tourist information point.\n\nGallery Talks and Tours\nGallery staff are on hand at all times to assist the public with information and to respond to enquiries. Group tours may be arranged by appointment.\n\nSchool Visits\nPrimary and post primary groups are very welcome. Visits may be arranged by appointment.\n\nQuails at the Gallery \nQuails offer the award-winning and high quality foods for which this family-run business is renowned. The café is open Monday to Saturday from 09:30 until 17:00 (Lunch served 12:00 - 15:00. Last serving 16:30)\n\nCrafts at the Gallery \nThe gallery showcases beautifully handcrafted products made by talented designers and craftspeople including a wide range of jewellery, ceramics, fashion accessories and other gifts.\n\nThere are various art and craft workshop for adults and children which can be found on the website.\n\nIn 2015 the F.E. McWilliam Gallery and Studio were awarded a Silver Award in the Green Tourism Business Scheme.</string>
+    <string name="NMDTIM_Spinner_contact_FEMcWilliamGalleryandStudio">F.E. McWilliam Gallery and Studio\nKaren McKinstry\n200 Newry Road\nBanbridge\nCounty Down\nBT32 3NB\n\nT: (028) 4062 3322</string>
+    <string name="NMDTIM_Spinner_additional_FEMcWilliamGalleryandStudio">Location Description\nSituated near the Outlet Shopping Village.\n\nDirections from Town\nTake the A26 (Newry Road) heading south. Come to the top of the A26 and take left at first roundabout. Gallery situated below the road on the right-hand side.\n\nOpening times\nMonday - Saturday: 10:00 - 17:00\nSunday (June, July and August only): 13.00 to 17.00\n\nPrices\nAdmission Free</string>
 
-    <string name="NMDTIM_Spinner_description_ShanesCastle"></string>
-    <string name="NMDTIM_Spinner_contact_ShanesCastle"></string>
-    <string name="NMDTIM_Spinner_additional_ShanesCastle"></string>
+    <string name="NMDTIM_Spinner_description_DundrumHeritageTrail">The Heritage Trail takes you on a journey through the historic life and times of Dundrum Village and tells the story of the commercial and maritime heritage.\n\nFollow the trail using the Heritage Trail Map which outlines places of interest including:\nDUNDRUM CASTLE\nDUNDRUM HOUSE\nCLOCK HOUSE\nDOWNSHIRE ARMS\nBATH HOUSE\nGATE LODGE\nST DONARDS CHURCH OF IRELAND\nMANOR HOUSE AND STUDIO\nMURLOUGH NATIONAL NATURE RESERVE\nand many more.\n\nCopies of the Dundrum Heritage Trail map are available from Newcastle Visitor Information Centre on the number above.</string>
+    <string name="NMDTIM_Spinner_contact_DundrumHeritageTrail">Christine McCormick\nNewcastle Visitor Information Centre\nNewcastle\nCounty Down\nBT33 0AA\n\nE: newcastle.vic@downdc.gov.uk\n\nT: (028) 4372 2222</string>
+    <string name="NMDTIM_Spinner_additional_DundrumHeritageTrail">Location Description\nDundrum Village</string>
 
 </resources>

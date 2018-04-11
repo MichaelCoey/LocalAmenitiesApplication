@@ -20,10 +20,10 @@ public class FermanaghAndOmaghMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 
-//    public void NavigationArdsAndNorthDown(View view) {
-//        // Starting a new Intent
-//        Intent nextScreen = new Intent(getApplicationContext(),
-//                ArdsAndNorthDownMenu_Activity.class);
-//        startActivity(nextScreen);
-//    }
+    public void NavigationFermanaghOmaghTouristServices(View view) {
+        // Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(),
+                FermanaghOmaghTouristInformation_Activity.class);
+        startActivity(nextScreen);
+    }
 }

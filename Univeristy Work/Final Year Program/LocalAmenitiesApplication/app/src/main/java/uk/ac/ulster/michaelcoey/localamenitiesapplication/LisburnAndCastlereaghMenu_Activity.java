@@ -20,10 +20,10 @@ public class LisburnAndCastlereaghMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 
-//    public void NavigationArdsAndNorthDown(View view) {
-//        // Starting a new Intent
-//        Intent nextScreen = new Intent(getApplicationContext(),
-//                ArdsAndNorthDownMenu_Activity.class);
-//        startActivity(nextScreen);
-//    }
+    public void NavigationLisburnCastlereaghTouristServices(View view) {
+        // Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(),
+                LisburnAndCastlereaghTouristInformation_Activity.class);
+        startActivity(nextScreen);
+    }
 }

@@ -20,10 +20,10 @@ public class ArdsAndNorthDownMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 
-//    public void NavigationArdsAndNorthDown(View view) {
-//        // Starting a new Intent
-//        Intent nextScreen = new Intent(getApplicationContext(),
-//                ArdsAndNorthDownMenu_Activity.class);
-//        startActivity(nextScreen);
-//    }
+    public void NavigationArdsNorthDownTouristInformation(View view) {
+        // Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(),
+                ArdsNorthDownTouristInformation_Activity.class);
+        startActivity(nextScreen);
+    }
 }

@@ -20,10 +20,10 @@ public class CausewayCoastGlensMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 
-//    public void NavigationArdsAndNorthDown(View view) {
-//        // Starting a new Intent
-//        Intent nextScreen = new Intent(getApplicationContext(),
-//                ArdsAndNorthDownMenu_Activity.class);
-//        startActivity(nextScreen);
-//    }
+    public void NavigationCausewayCoastGlensTouristServices(View view) {
+        // Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(),
+                CausewayCoastGlensTouristInformation_Activity.class);
+        startActivity(nextScreen);
+    }
 }

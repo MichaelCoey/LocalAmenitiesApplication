@@ -7,6 +7,7 @@ import android.content.Intent;
 
 
 public class Splash_Activity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

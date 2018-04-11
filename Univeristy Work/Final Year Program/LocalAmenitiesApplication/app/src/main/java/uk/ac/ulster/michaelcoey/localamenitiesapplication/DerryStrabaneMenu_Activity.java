@@ -20,10 +20,10 @@ public class DerryStrabaneMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 
-//    public void NavigationArdsAndNorthDown(View view) {
-//        // Starting a new Intent
-//        Intent nextScreen = new Intent(getApplicationContext(),
-//                ArdsAndNorthDownMenu_Activity.class);
-//        startActivity(nextScreen);
-//    }
+    public void NavigationDerryStrabaneTouristServices(View view) {
+        // Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(),
+                DerryStrabaneTouristInformation_Activity.class);
+        startActivity(nextScreen);
+    }
 }

@@ -89,7 +89,4 @@ public class Area_Activity extends AppCompatActivity {
                 NewryMourneDownMenu_Activity.class);
         startActivity(nextScreen);
     }
-
-
-
 }

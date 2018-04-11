@@ -20,11 +20,10 @@ public class ArmaghBanbridgeCraigavonMenu_Activity extends AppCompatActivity {
         startActivity(nextScreen);
     }
 
-//    public void NavigationArdsAndNorthDown(View view) {
-//        // Starting a new Intent
-//        Intent nextScreen = new Intent(getApplicationContext(),
-//                ArdsAndNorthDownMenu_Activity.class);
-//        startActivity(nextScreen);
-//    }
-
+    public void NavigationArmaghBanbridgeCraigavonTouristServices(View view) {
+        // Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(),
+                ArmaghBanbridgeCraigavonTouristInformation_Activity.class);
+        startActivity(nextScreen);
+    }
 }

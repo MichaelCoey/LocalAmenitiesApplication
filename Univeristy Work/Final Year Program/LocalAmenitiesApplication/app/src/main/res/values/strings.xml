@@ -7,8 +7,8 @@
 
     <!--Area Selection Activity Text Strings-->
     <string name="area_Title" translatable="false">Please select an area of N.I</string>
-    <string name="area_AntrimNewtownabbey" translatable="false">Antrim &amp; Newtownabbey</string>
-    <string name="area_ArdsAndNorthDown" translatable="false">Ards &amp; North Down</string>
+    <string name="area_AntrimNewtownabbey" translatable="false">Antrim and Newtownabbey</string>
+    <string name="area_ArdsAndNorthDown" translatable="false">Ards and North Down</string>
     <string name="area_ArmaghBanbridgeCraigavon" translatable="false">Armagh, Banbridge and Craigavon</string>
     <string name="area_BelfastCity" translatable="false">Belfast City</string>
     <string name="area_CausewayAndGlens" translatable="false">Causeway Coast and Glens</string>
@@ -25,7 +25,7 @@
 
     <!--Antrim and Newtownabbey Council Menu-->
     <!--Information provided by Antrim & Newtownabbey Council Website - Resident Information-->
-    <string name="antrimnewtownabbey_councilmenu_Title">Antrim &amp; Newtownabbey Council Services</string>
+    <string name="antrimnewtownabbey_councilmenu_Title">Antrim and Newtownabbey Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ANCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -64,7 +64,7 @@
 
     <!--Ards and NorthDown Council Menu-->
     <!--Information provided by Ards & Northdown Council Website - Resident Information-->
-    <string name="ardsnorthdown_councilmenu_Title">Ards &amp; North Down Council Services</string>
+    <string name="ardsnorthdown_councilmenu_Title">Ards and North Down Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ANDCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -103,7 +103,7 @@
 
     <!--Armagh, Banbridge & Craigavon Council Menu-->
     <!--Information provided by Armagh, Banbridge and Craigavon Council Website - Resident Information-->
-    <string name="armaghbanbridgecraigavon_councilmenu_Title">Armagh, Banbridge &amp; Craigavon Council Services</string>
+    <string name="armaghbanbridgecraigavon_councilmenu_Title">Armagh, Banbridge and Craigavon Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ABCCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -181,7 +181,7 @@
 
     <!--Causeway Glens Council Menu-->
     <!--Information provided by Causeway Glens Council Website - Resident Information-->
-    <string name="causewaycoastglens_councilmenu_Title">Causeway Coast &amp; Glens Council Services</string>
+    <string name="causewaycoastglens_councilmenu_Title">Causeway Coast and Glens Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="CCGCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -220,7 +220,7 @@
 
     <!--Derry Strabane Council Menu-->
     <!--Information provided by Derry Strabane Council Website - Resident Information-->
-    <string name="derrystrabane_councilmenu_Title">Derry &amp; Strabane Council Information</string>
+    <string name="derrystrabane_councilmenu_Title">Derry and Strabane Council Information</string>
     <!--Spinner Tool Contents-->
     <string-array name="DSCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -259,7 +259,7 @@
 
     <!--Fermanagh Omagh Council Menu-->
     <!--Information provided by Fermanagh Omagh Council Website - Resident Information-->
-    <string name="fermanaghomagh_councilmenu_Title">Fermanagh &amp; Omagh Council Services</string>
+    <string name="fermanaghomagh_councilmenu_Title">Fermanagh and Omagh Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="FOCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -298,7 +298,7 @@
 
     <!--Lisburn Castlereagh Council Menu-->
     <!--Information provided by Lisburn Castlereagh Council Website - Resident Information-->
-    <string name="lisburncastlereagh_councilmenu_Title">Lisburn &amp; Castlereagh Council Services</string>
+    <string name="lisburncastlereagh_councilmenu_Title">Lisburn and Castlereagh Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="LCCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -416,7 +416,7 @@
 
     <!--Newry, Mourne & Down Council Menu-->
     <!--Information provided by Newry, Mourne & Down Council Website - Resident Information-->
-    <string name="newrymournedown_councilmenu_Title">Newry, Mourne &amp; Down Council Services</string>
+    <string name="newrymournedown_councilmenu_Title">Newry, Mourne and Down Council Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="NMDCIM_Spinner_Array_Titles">
         <item>Births, Deaths &amp; Marriages</item>
@@ -456,7 +456,7 @@
 
     <!--Antrim and Newtownabbey Tourist Menu-->
     <!--Information provided by Antrim & Newtownabbey Council Website - Things to do-->
-    <string name="antrimnewtownabbey_touristmenu_Title">Antrim &amp; Newtownabbey Tourist Services</string>
+    <string name="antrimnewtownabbey_touristmenu_Title">Antrim and Newtownabbey Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ANTIM_Spinner_Array_Titles">
         <item>Antrim Castle Gardens &amp; Clotworthy House</item>
@@ -492,7 +492,7 @@
 
     <!--Ards and North Down Tourist Menu-->
     <!--Information provided by Ards & North Down Council Website - Things To do-->
-    <string name="ardsnorthdown_touristmenu_Title">Ards &amp; North Down Tourist Services</string>
+    <string name="ardsnorthdown_touristmenu_Title">Ards and North Down Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ANDTIM_Spinner_Array_Titles">
         <item>Somme Museum</item>
@@ -529,7 +529,7 @@
 
     <!--Armagh Banbridge Craigavon Tourist Menu-->
     <!--Information provided by Armagh Banbridge Craigavon Council Website - Things To do-->
-    <string name="armaghbanbridgecraigavon_touristmenu_Title">Armagh, Banbridge &amp; Craigavon Tourist Services</string>
+    <string name="armaghbanbridgecraigavon_touristmenu_Title">Armagh, Banbridge and Craigavon Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="ABCTIM_Spinner_Array_Titles">
         <item>Armagh Planetarium &amp; Observatory</item>
@@ -601,7 +601,7 @@
 
     <!--Causeway Coast Glens Tourist Menu-->
     <!--Information provided by Causeway Coast Glens Council Website - Things To do-->
-    <string name="causewaycoastglens_touristmenu_Title">Causeway Coast &amp; Glens Tourist Services</string>
+    <string name="causewaycoastglens_touristmenu_Title">Causeway Coast and Glens Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="CCGTIM_Spinner_Array_Titles">
         <item>Ballycastle Museum</item>
@@ -637,7 +637,7 @@
 
     <!--Derry Strabane Tourist Menu-->
     <!--Information provided by Derry Strabane Council Website - Things To do-->
-    <string name="derrystrabane_touristmenu_Title">Derry &amp; Strabane Tourist Services</string>
+    <string name="derrystrabane_touristmenu_Title">Derry and Strabane Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="DSTIM_Spinner_Array_Titles">
         <item>Alley Arts and Conference Centre</item>
@@ -673,7 +673,7 @@
 
     <!--Fermanagh and Omagh Tourist Menu-->
     <!--Information provided by Fermanagh and Omagh Council Website - Things To do-->
-    <string name="fermanaghomagh_touristmenu_Title">Fermanagh &amp; Omagh Tourist Services</string>
+    <string name="fermanaghomagh_touristmenu_Title">Fermanagh and Omagh Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="FOTIM_Spinner_Array_Titles">
         <item>Enniskillen Castle Museums</item>
@@ -709,7 +709,7 @@
 
     <!--Lisburn and Castlereagh Tourist Menu-->
     <!--Information provided by Lisburn and Castlereagh Council Website - Things To do-->
-    <string name="lisburncastlereagh_touristmenu_Title">Lisburn &amp; Castlereagh Tourist Services</string>
+    <string name="lisburncastlereagh_touristmenu_Title">Lisburn and Castlereagh Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="LCTIM_Spinner_Array_Titles">
         <item>Dundonald International Ice Bowl</item>
@@ -817,7 +817,7 @@
 
     <!--Newry, Mourne, Down Tourist Menu-->
     <!--Information provided by Newry, Mourne, Down Council Website - Things To do-->
-    <string name="newrymournedown_touristmenu_Title">Newry, Mourne &amp; Down Tourist Services</string>
+    <string name="newrymournedown_touristmenu_Title">Newry, Mourne and Down Tourist Services</string>
     <!--Spinner Tool Contents-->
     <string-array name="NMDTIM_Spinner_Array_Titles">
         <item>Newry and Mourne Museum</item>

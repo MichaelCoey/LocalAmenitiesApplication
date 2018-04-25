@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fermanagh_omagh_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_FermanaghOmaghTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.FOTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -40,6 +43,7 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
     }
 
     @Override
+    /*Google Map Setup*/
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -67,6 +71,7 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_FOTIM);
                 imageElement.setImageResource(R.drawable.enniskillencastle);
 
@@ -103,6 +108,7 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_FOTIM);
                 imageElement.setImageResource(R.drawable.struleartscentre);
 
@@ -135,6 +141,7 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_FOTIM);
                 imageElement.setImageResource(R.drawable.ardhowentheatre);
 
@@ -166,8 +173,8 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
                 textElement.setText(R.string.FOTIM_Spinner_additional_TheArdhowen);
                 break;
             case 3:
-                //Image from Marble Arch Website
-                //https://www.marblearchcavesgeopark.com/wp-content/uploads/2014/05/MAC_BoatTrip_TourGroup_5-500x300.jpg
+                //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_FOTIM);
                 imageElement.setImageResource(R.drawable.marblearch);
 
@@ -204,5 +211,42 @@ public class FermanaghOmaghTouristInformation_Activity extends AppCompatActivity
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
+
+        imageElement = (ImageView) findViewById(R.id.imgView_FOTIM);
+        imageElement.setImageResource(R.drawable.enniskillencastle);
+
+        textElement = (TextView) findViewById(R.id.txtFOTSDescription);
+        textElement.setText(R.string.FOTIM_Spinner_description_EnniskillenCastleMuseums);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02866325000"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("https://www.enniskillencastle.co.uk/"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtFOTSContact);
+        textElement.setText(R.string.FOTIM_Spinner_contact_EnniskillenCastleMuseums);
+
+        textElement = (TextView) findViewById(R.id.txtFOTSAdditional);
+        textElement.setText(R.string.FOTIM_Spinner_additional_EnniskillenCastleMuseums);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
     }
 }

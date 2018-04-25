@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports for widgets*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 public class AntrimCouncilInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    /*Declaring string array and spinner(dropdown)*/
     private static final String[] paths = {};
     private Spinner spinner;
 
@@ -20,6 +22,7 @@ public class AntrimCouncilInformation_Activity extends AppCompatActivity impleme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_antrim_council_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_AntrimCouncilInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.ANCIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -28,12 +31,15 @@ public class AntrimCouncilInformation_Activity extends AppCompatActivity impleme
     }
 
     @Override
+    /*Setting select events when user makes a choice on the dropdown*/
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
     {
         TextView textElement;
 
         switch (position)
         {
+            /*Population of activity elements*/
+            /*Content Provided by Antrim Council Website*/
             case 0:
                 textElement = (TextView) findViewById(R.id.txtANCSDescription);
                 textElement.setText(R.string.ANCIM_Spinner_description_BirthsDeathsMarriages);
@@ -88,8 +94,18 @@ public class AntrimCouncilInformation_Activity extends AppCompatActivity impleme
     }
 
     @Override
+    /*Error Handling*/
     public void onNothingSelected(AdapterView<?> parent)
     {
+        TextView textElement;
 
+        textElement = (TextView) findViewById(R.id.txtANCSDescription);
+        textElement.setText(R.string.ANCIM_Spinner_description_BirthsDeathsMarriages);
+
+        textElement = (TextView) findViewById(R.id.txtANCSContact);
+        textElement.setText(R.string.ANCIM_Spinner_contact_BirthsDeathsMarriages);
+
+        textElement = (TextView) findViewById(R.id.txtANCSAdditional);
+        textElement.setText(R.string.ANCIM_Spinner_additional_BirthsDeathsMarriages);
     }
 }

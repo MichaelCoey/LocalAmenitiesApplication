@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_causeway_coast_glens_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_CausewayCoastGlensTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.CCGTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -40,6 +43,7 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
     }
 
     @Override
+    /*Google Map Setup*/
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -67,6 +71,7 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_CCGTIM);
                 imageElement.setImageResource(R.drawable.ballycastlemuseum);
 
@@ -103,6 +108,7 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_CCGTIM);
                 imageElement.setImageResource(R.drawable.roevalleylimavadyciviccentre);
 
@@ -135,6 +141,7 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_CCGTIM);
                 imageElement.setImageResource(R.drawable.causewaycoast);
 
@@ -167,6 +174,7 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
                 break;
             case 3:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_CCGTIM);
                 imageElement.setImageResource(R.drawable.joeydunlopleisurecentre);
 
@@ -202,6 +210,42 @@ public class CausewayCoastGlensTouristInformation_Activity extends AppCompatActi
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
 
+        imageElement = (ImageView) findViewById(R.id.imgView_CCGTIM);
+        imageElement.setImageResource(R.drawable.ballycastlemuseum);
+
+        textElement = (TextView) findViewById(R.id.txtCCGTSDescription);
+        textElement.setText(R.string.CCGTIM_Spinner_description_BallycastleMuseum);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02820762024"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("https://www.causewaycoastandglens.gov.uk/see-do/cultural-services/museums-services/ballycastle-museum"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtCCGTSContact);
+        textElement.setText(R.string.CCGTIM_Spinner_contact_BallycastleMuseum);
+
+        textElement = (TextView) findViewById(R.id.txtCCGTSAdditional);
+        textElement.setText(R.string.CCGTIM_Spinner_additional_BallycastleMuseum);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
     }
 }

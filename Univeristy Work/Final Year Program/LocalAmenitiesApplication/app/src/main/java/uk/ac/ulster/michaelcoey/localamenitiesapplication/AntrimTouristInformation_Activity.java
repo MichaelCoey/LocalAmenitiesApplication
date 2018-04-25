@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class AntrimTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_antrim_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_AntrimTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.ANTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -42,6 +45,7 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
     }
 
     @Override
+    /*Preparing Google Map and adding markers to the map*/
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -69,6 +73,7 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ANTIM);
                 imageElement.setImageResource(R.drawable.antrimcastlegardensclotworthyhouse);
 
@@ -105,6 +110,7 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ANTIM);
                 imageElement.setImageResource(R.drawable.ballyrobertcottagegarden);
 
@@ -137,6 +143,7 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ANTIM);
                 imageElement.setImageResource(R.drawable.ramsisland);
 
@@ -171,6 +178,7 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
                 break;
             case 3:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ANTIM);
                 imageElement.setImageResource(R.drawable.shanescastle);
 
@@ -209,6 +217,47 @@ public class AntrimTouristInformation_Activity extends AppCompatActivity impleme
     
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
+
+        //Image from Discover NI
+        //Content from Discover NI & Council Website
+        imageElement = (ImageView) findViewById(R.id.imgView_ANTIM);
+        imageElement.setImageResource(R.drawable.antrimcastlegardensclotworthyhouse);
+
+        textElement = (TextView) findViewById(R.id.txtANTSDescription);
+        textElement.setText(R.string.ANTIM_Spinner_description_AntrimCastleGardensClotworthyHouse);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02894481338"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("http://www.antrimandnewtownabbey.gov.uk/Things-To-Do/Places-to-Visit/Antrim-Castle-Gardens-Clotworthy-House"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtANTSContact);
+        textElement.setText(R.string.ANTIM_Spinner_contact_AntrimCastleGardensClotworthyHouse);
+
+        textElement = (TextView) findViewById(R.id.txtANTSAdditional);
+        textElement.setText(R.string.ANTIM_Spinner_additional_AntrimCastleGardensClotworthyHouse);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+
 
     }
 }

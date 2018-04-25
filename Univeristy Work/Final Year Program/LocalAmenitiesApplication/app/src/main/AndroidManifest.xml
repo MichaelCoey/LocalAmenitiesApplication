@@ -2,14 +2,12 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="uk.ac.ulster.michaelcoey.localamenitiesapplication">
-
+    <!-- Permission settings for internet access, dialer access and location access -->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <!-- Google Maps API Key Setup -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -65,7 +64,4 @@
         <activity android:name=".NewryMourneDownTouristInformation_Activity"></activity>
 
     </application>
-
-
-
 </manifest>

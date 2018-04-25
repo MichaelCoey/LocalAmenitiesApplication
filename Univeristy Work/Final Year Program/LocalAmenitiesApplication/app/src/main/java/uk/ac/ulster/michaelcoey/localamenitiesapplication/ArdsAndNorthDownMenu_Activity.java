@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports for widgets*/
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

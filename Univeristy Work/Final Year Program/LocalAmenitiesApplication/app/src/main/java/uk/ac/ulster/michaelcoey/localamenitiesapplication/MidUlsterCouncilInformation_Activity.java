@@ -87,6 +87,15 @@ public class MidUlsterCouncilInformation_Activity extends AppCompatActivity impl
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+        TextView textElement;
 
+        textElement = (TextView) findViewById(R.id.txtMUCSDescription);
+        textElement.setText(R.string.MUCIM_Spinner_description_BirthsDeathsMarriages);
+
+        textElement = (TextView) findViewById(R.id.txtMUCSContact);
+        textElement.setText(R.string.MUCIM_Spinner_contact_BirthsDeathsMarriages);
+
+        textElement = (TextView) findViewById(R.id.txtMUCSAdditional);
+        textElement.setText(R.string.MUCIM_Spinner_additional_BirthsDeathsMarriages);
     }
 }

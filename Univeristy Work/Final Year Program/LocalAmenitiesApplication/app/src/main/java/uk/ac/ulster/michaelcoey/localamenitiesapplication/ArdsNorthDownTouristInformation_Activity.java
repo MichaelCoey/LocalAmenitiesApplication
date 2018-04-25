@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ards_north_down_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_ArdsNorthDownTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.ANDTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -40,6 +43,7 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
     }
 
     @Override
+    /*Preparing Google Map and adding markers to the map*/
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -68,6 +72,7 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ArdsNorthDown);
                 imageElement.setImageResource(R.drawable.sommeheritage);
 
@@ -104,6 +109,7 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ArdsNorthDown);
                 imageElement.setImageResource(R.drawable.uftm);
 
@@ -136,6 +142,7 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ArdsNorthDown);
                 imageElement.setImageResource(R.drawable.islandhill);
 
@@ -168,6 +175,7 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
                 break;
             case 3:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ArdsNorthDown);
                 imageElement.setImageResource(R.drawable.exploris);
 
@@ -203,6 +211,46 @@ public class ArdsNorthDownTouristInformation_Activity extends AppCompatActivity 
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
+
+        //Image from Discover NI
+        //Content from Discover NI & Council Website
+        imageElement = (ImageView) findViewById(R.id.imgView_ArdsNorthDown);
+        imageElement.setImageResource(R.drawable.sommeheritage);
+
+        textElement = (TextView) findViewById(R.id.txtANDTSDescription);
+        textElement.setText(R.string.ANDTIM_Spinner_description_SommeMuseum);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02891823202"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("http://www.sommeassociation.com/"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtANDTSContact);
+        textElement.setText(R.string.ANDTIM_Spinner_contact_SommeMuseum);
+
+        textElement = (TextView) findViewById(R.id.txtANDTSAdditional);
+        textElement.setText(R.string.ANDTIM_Spinner_additional_SommeMuseum);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
 
     }
 }

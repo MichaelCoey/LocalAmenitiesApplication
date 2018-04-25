@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class BelfastCityTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_belfast_city_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_BelfastCityTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.BCTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -40,6 +43,7 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
     }
 
     @Override
+    /*Preparing Google Map and adding markers to the map*/
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -67,6 +71,7 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_BCTIM);
                 imageElement.setImageResource(R.drawable.malonehouse);
 
@@ -103,6 +108,7 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_BCTIM);
                 imageElement.setImageResource(R.drawable.belfastcastle);
 
@@ -135,6 +141,7 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_BCTIM);
                 imageElement.setImageResource(R.drawable.belfastzoo);
 
@@ -167,6 +174,7 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
                 break;
             case 3:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_BCTIM);
                 imageElement.setImageResource(R.drawable.stgeorgesmarket);
 
@@ -203,5 +211,44 @@ public class BelfastCityTouristInformation_Activity extends AppCompatActivity im
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
+
+        //Image from Discover NI
+        //Content from Discover NI & Council Website
+        imageElement = (ImageView) findViewById(R.id.imgView_BCTIM);
+        imageElement.setImageResource(R.drawable.malonehouse);
+
+        textElement = (TextView) findViewById(R.id.txtBCTSDescription);
+        textElement.setText(R.string.BCTIM_Spinner_description_MaloneHouse);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02890681246"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("http://www.belfastcity.gov.uk/tourism-venues/malonehouse/mhabout.aspx"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtBCTSContact);
+        textElement.setText(R.string.BCTIM_Spinner_contact_MaloneHouse);
+
+        textElement = (TextView) findViewById(R.id.txtBCTSAdditional);
+        textElement.setText(R.string.BCTIM_Spinner_additional_MaloneHouse);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
     }
 }

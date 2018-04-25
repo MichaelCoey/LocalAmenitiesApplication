@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppComp
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_armagh_banbridge_craigavon_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_ArmaghBanbridgeCraigavonTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.ABCTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -67,6 +70,7 @@ public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppComp
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ABCTIM);
                 imageElement.setImageResource(R.drawable.armaghplanetarium);
 
@@ -104,6 +108,7 @@ public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppComp
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ABCTIM);
                 imageElement.setImageResource(R.drawable.fewilliamsgallery);
 
@@ -136,6 +141,7 @@ public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppComp
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ABCTIM);
                 imageElement.setImageResource(R.drawable.armaghcountymuseum);
 
@@ -168,6 +174,7 @@ public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppComp
                 break;
             case 3:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_ABCTIM);
                 imageElement.setImageResource(R.drawable.navancentre);
 
@@ -204,6 +211,43 @@ public class ArmaghBanbridgeCraigavonTouristInformation_Activity extends AppComp
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
+
+        imageElement = (ImageView) findViewById(R.id.imgView_ABCTIM);
+        imageElement.setImageResource(R.drawable.armaghplanetarium);
+
+        textElement = (TextView) findViewById(R.id.txtABCTSDescription);
+        textElement.setText(R.string.ABCTIM_Spinner_description_ArmaghPlanetariumObservatory);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02837523689"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("http://www.armaghplanet.com/"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtABCTSContact);
+        textElement.setText(R.string.ABCTIM_Spinner_contact_ArmaghPlanetariumObservatory);
+
+        textElement = (TextView) findViewById(R.id.txtABCTSAdditional);
+        textElement.setText(R.string.ABCTIM_Spinner_additional_ArmaghPlanetariumObservatory);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
 
     }
 }

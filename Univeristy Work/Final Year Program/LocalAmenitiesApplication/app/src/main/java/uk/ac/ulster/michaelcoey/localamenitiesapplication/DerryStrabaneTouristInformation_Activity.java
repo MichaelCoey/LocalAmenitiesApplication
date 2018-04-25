@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports For Functionality*/
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, OnMapReadyCallback {
 
+    /*Setting up string array, spinner object and google map object*/
     private static final String[] paths = {};
     private Spinner spinner;
     private GoogleMap mMap;
@@ -32,6 +34,7 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_derry_strabane_tourist_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_DerryStrabaneTouristInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.DSTIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -40,6 +43,7 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
     }
 
     @Override
+    /*Google Map Setup*/
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -67,6 +71,7 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
         {
             case 0:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_DSTIM);
                 imageElement.setImageResource(R.drawable.alleyartsandconferencecentre);
 
@@ -103,6 +108,7 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
                 break;
             case 1:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_DSTIM);
                 imageElement.setImageResource(R.drawable.guildhallfountains);
 
@@ -135,6 +141,7 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
                 break;
             case 2:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_DSTIM);
                 imageElement.setImageResource(R.drawable.towermuseum);
 
@@ -167,6 +174,7 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
                 break;
             case 3:
                 //Image from Discover NI
+                //Content from Discover NI & Council Website
                 imageElement = (ImageView) findViewById(R.id.imgView_DSTIM);
                 imageElement.setImageResource(R.drawable.thefoylemaritimefestival);
 
@@ -202,6 +210,44 @@ public class DerryStrabaneTouristInformation_Activity extends AppCompatActivity 
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+
+        TextView textElement;
+        ImageView imageElement;
+        Button button;
+
+        imageElement = (ImageView) findViewById(R.id.imgView_DSTIM);
+        imageElement.setImageResource(R.drawable.alleyartsandconferencecentre);
+
+        textElement = (TextView) findViewById(R.id.txtDSTSDescription);
+        textElement.setText(R.string.DSTIM_Spinner_description_AlleyArtsandConferenceCentre);
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:02871384444"));
+                startActivity(intent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("https://www.alley-theatre.com/"));
+                startActivity(myWebLink);
+            }
+        });
+
+        textElement = (TextView) findViewById(R.id.txtDSTSContact);
+        textElement.setText(R.string.DSTIM_Spinner_contact_AlleyArtsandConferenceCentre);
+
+        textElement = (TextView) findViewById(R.id.txtDSTSAdditional);
+        textElement.setText(R.string.DSTIM_Spinner_additional_AlleyArtsandConferenceCentre);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
 
     }
 }

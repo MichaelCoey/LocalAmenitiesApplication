@@ -1,5 +1,6 @@
 package uk.ac.ulster.michaelcoey.localamenitiesapplication;
 
+/*Needed Imports for widgets*/
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 public class BelfastCityCouncilInformation_Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    /*Declaring string array and spinner(dropdown)*/
     private static final String[] paths = {};
     private Spinner spinner;
 
@@ -18,6 +20,7 @@ public class BelfastCityCouncilInformation_Activity extends AppCompatActivity im
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_belfast_city_council_information);
 
+        /*Populating spinner object with string array from resources and setting listener up*/
         spinner = (Spinner) findViewById(R.id.spn_BelfastCityCouncilInfo);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.BCCIM_Spinner_Array_Titles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -26,12 +29,15 @@ public class BelfastCityCouncilInformation_Activity extends AppCompatActivity im
     }
 
     @Override
+    /*Setting select events when user makes a choice on the dropdown*/
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
         TextView textElement;
 
         switch (position)
         {
+            /*Population of activity elements*/
+            /*Content Provided by Belfast City Council Website*/
             case 0:
                 textElement = (TextView) findViewById(R.id.txtBCCSDescription);
                 textElement.setText(R.string.BCCIM_Spinner_description_BirthsDeathsMarriages);
@@ -86,7 +92,18 @@ public class BelfastCityCouncilInformation_Activity extends AppCompatActivity im
     }
 
     @Override
+    /*Error Handling*/
     public void onNothingSelected(AdapterView<?> parent) {
 
+        TextView textElement;
+
+        textElement = (TextView) findViewById(R.id.txtBCCSDescription);
+        textElement.setText(R.string.BCCIM_Spinner_description_BirthsDeathsMarriages);
+
+        textElement = (TextView) findViewById(R.id.txtBCCSContact);
+        textElement.setText(R.string.BCCIM_Spinner_contact_BirthsDeathsMarriages);
+
+        textElement = (TextView) findViewById(R.id.txtBCCSAdditional);
+        textElement.setText(R.string.BCCIM_Spinner_additional_BirthsDeathsMarriages);
     }
 }
